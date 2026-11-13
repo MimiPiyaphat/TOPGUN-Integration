@@ -1,0 +1,14 @@
+source_label,canonical_class,status,use_for_training,notes
+Biji_Normal,good,provisional,false,Local pre-camp data only; replace with organizer mapping on competition day
+Biji_Hitam,full_black,provisional,false,Local pre-camp data only; replace with organizer mapping on competition day
+Biji_Pecah,broken_chipped_cut,provisional,false,Local pre-camp data only; replace with organizer mapping on competition day
+Biji_Muda,immature_unripe,provisional,false,Local pre-camp data only; replace with organizer mapping on competition day
+Biji_Berkulit_Tanduk,parchment_pergamino,provisional,false,Local pre-camp data only; replace with organizer mapping on competition day
+Biji_Gelondong,hull_husk,candidate,false,Whole dried coffee fruit; confirm against organizer samples
+Kulit_Kopi_Besar,hull_husk,candidate,false,Large coffee husk; confirm whether size variants should be merged
+Kulit_Kopi_Sedang,hull_husk,candidate,false,Medium coffee husk; confirm whether size variants should be merged
+Kulit_Kopi_Kecil,hull_husk,candidate,false,Small coffee husk; confirm whether size variants should be merged
+Kulit_Tanduk_Besar,parchment_pergamino,candidate,false,Loose parchment material; may not match bean-level Parchment class
+Kulit_Tanduk_Sedang,parchment_pergamino,candidate,false,Loose parchment material; may not match bean-level Parchment class
+Kulit_Tanduk_Kecil,parchment_pergamino,candidate,false,Loose parchment material; may not match bean-level Parchment class
+,shell,waiting_for_official_data,false,Organizer dataset will be provided on competition day
