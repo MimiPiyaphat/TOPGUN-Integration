@@ -115,7 +115,188 @@ TOPGUN-Integration/
 
 เอกสารประกอบโครงการจะจัดเก็บไว้ในโฟลเดอร์ `docs/` เพื่อให้สมาชิกสามารถศึกษาและติดตามรายละเอียดได้จากแหล่งข้อมูลเดียวกัน
 
-## 9. สถานะการพัฒนา (Development Status)
+## 9. ข้อตกลงข้อมูลกลาง (Integration Data Contract)
+
+ทุก Track ต้องใช้ Data Contract นี้ร่วมกัน เพื่อป้องกันการนำค่าความชื้นและผล Vision จากคนละล็อตมาจับคู่กัน
+
+### 9.1 ผู้รับผิดชอบและลำดับการทำงาน
+
+1. **Q / Raspberry Pi** สร้าง `lot_id` ใหม่ก่อนเริ่มตรวจแต่ละล็อต และประกาศไปยัง MQTT control topic
+2. **Cyn / ESP32** แนบ `lot_id` ดังกล่าวกับผลวัดความชื้น
+3. **Mi / Vision AI และ Q / Raspberry Pi** แนบ `lot_id` เดียวกันกับผล Vision
+4. **Bonus / AI Agent** รวมข้อมูลด้วย `lot_id` เท่านั้น ห้ามจับคู่ด้วยลำดับเวลาหรือข้อความล่าสุด
+5. **One / Market API** รับเฉพาะ `lot.assessment` ที่ผ่านการตรวจสอบแล้วไปใช้กับกลยุทธ์ตลาด
+
+ระหว่างพัฒนาที่ยังไม่มี control service สามารถกำหนด `lot_id` เดียวกันด้วยตนเองทั้ง ESP32 และ Raspberry Pi เพื่อทดสอบได้
+
+### 9.2 MQTT Topics
+
+ให้แทน `<team-id>` ด้วยชื่อทีมที่ตกลงร่วมกัน และใช้ชื่อเดียวกันทุกอุปกรณ์
+
+```text
+tgr2026/<team-id>/v1/control/current-lot
+tgr2026/<team-id>/v1/moisture
+tgr2026/<team-id>/v1/vision
+tgr2026/<team-id>/v1/assessment
+```
+
+การใส่ `<team-id>` และ `v1` ช่วยป้องกัน topic ชนกับทีมอื่นบน public broker และรองรับการเปลี่ยน schema ในอนาคต
+
+### 9.3 Common Envelope
+
+ทุกข้อความต้องมี field ส่วนกลางต่อไปนี้
+
+| Field | Type | Required | ความหมาย |
+|---|---|---|---|
+| `schema_version` | string | Yes | เวอร์ชันของ Data Contract ปัจจุบันคือ `1.0` |
+| `message_id` | string | Yes | ID ไม่ซ้ำของข้อความ ใช้ตรวจข้อความซ้ำ |
+| `lot_id` | string | Yes | ID ของล็อตกาแฟที่กำลังตรวจ |
+| `type` | string | Yes | ชนิดข้อความ เช่น `moisture.measurement` |
+| `timestamp` | string | Yes | เวลามาตรฐาน ISO 8601 แบบ UTC |
+| `source` | object | Yes | อุปกรณ์และ Track ที่สร้างข้อมูล |
+| `data` | object | Yes | ผลการตรวจของแต่ละ Track |
+
+ตัวอย่างส่วนกลาง:
+
+```json
+{
+  "schema_version": "1.0",
+  "message_id": "esp32-01-000123",
+  "lot_id": "lot-20261117-001",
+  "type": "moisture.measurement",
+  "timestamp": "2026-11-17T02:15:30Z",
+  "source": {
+    "device_id": "esp32_sensor_01",
+    "track": "embedded"
+  },
+  "data": {}
+}
+```
+
+### 9.4 ESP32 Moisture Payload
+
+Publish ไปยัง `tgr2026/<team-id>/v1/moisture`
+
+```json
+{
+  "schema_version": "1.0",
+  "message_id": "esp32-01-000123",
+  "lot_id": "lot-20261117-001",
+  "type": "moisture.measurement",
+  "timestamp": "2026-11-17T02:15:30Z",
+  "source": {
+    "device_id": "esp32_sensor_01",
+    "track": "embedded"
+  },
+  "data": {
+    "moisture_pct": 12.5,
+    "raw_adc": 2450,
+    "status": "ok"
+  }
+}
+```
+
+### 9.5 Vision Payload
+
+Publish ไปยัง `tgr2026/<team-id>/v1/vision`
+
+```json
+{
+  "schema_version": "1.0",
+  "message_id": "rpi5-01-000456",
+  "lot_id": "lot-20261117-001",
+  "type": "vision.inference",
+  "timestamp": "2026-11-17T02:15:35Z",
+  "source": {
+    "device_id": "rpi5_vision_01",
+    "track": "vision"
+  },
+  "model": {
+    "name": "coffee-defect",
+    "version": "0.1.0",
+    "task": "detection"
+  },
+  "data": {
+    "total_beans": 50,
+    "counts": {
+      "good": 40,
+      "shell": 1,
+      "full_black": 4,
+      "hull_husk": 1,
+      "broken_chipped_cut": 3,
+      "parchment_pergamino": 1,
+      "immature_unripe": 0
+    },
+    "inference_ms": 185,
+    "status": "ok"
+  }
+}
+```
+
+ชื่อ key ของเมล็ดกาแฟทั้ง 7 ประเภทต้องใช้ตามรายการนี้เท่านั้น:
+
+```text
+good
+shell
+full_black
+hull_husk
+broken_chipped_cut
+parchment_pergamino
+immature_unripe
+```
+
+### 9.6 Integrated Lot Assessment
+
+Integration service รวม Moisture และ Vision ที่มี `lot_id` ตรงกัน ตรวจสอบข้อมูล แล้ว publish ไปยัง `tgr2026/<team-id>/v1/assessment`
+
+```json
+{
+  "schema_version": "1.0",
+  "message_id": "integration-01-000789",
+  "lot_id": "lot-20261117-001",
+  "type": "lot.assessment",
+  "timestamp": "2026-11-17T02:15:36Z",
+  "source": {
+    "device_id": "integration_01",
+    "track": "integration"
+  },
+  "data": {
+    "moisture": {
+      "moisture_pct": 12.5,
+      "status": "ok"
+    },
+    "vision": {
+      "total_beans": 50,
+      "counts": {
+        "good": 40,
+        "shell": 1,
+        "full_black": 4,
+        "hull_husk": 1,
+        "broken_chipped_cut": 3,
+        "parchment_pergamino": 1,
+        "immature_unripe": 0
+      }
+    },
+    "validation": {
+      "complete": true,
+      "count_sum_matches_total": true
+    }
+  }
+}
+```
+
+### 9.7 Validation Rules
+
+- รวมข้อมูลเฉพาะข้อความที่มี `lot_id` ตรงกัน
+- `schema_version` ต้องเป็นเวอร์ชันที่ระบบรองรับ
+- `message_id` ต้องไม่เคยถูกประมวลผลมาก่อน
+- `moisture_pct` ต้องอยู่ระหว่าง `0` ถึง `100`
+- จำนวนของทั้ง 7 คลาสต้องเป็นจำนวนเต็มที่ไม่ติดลบ
+- ผลรวม `counts` ทั้ง 7 คลาสต้องเท่ากับ `total_beans`
+- `status` ใช้ค่า `ok`, `warning` หรือ `error`
+- AI Agent และ Market API ต้องไม่ใช้ assessment ที่ `validation.complete` เป็น `false`
+
+## 10. สถานะการพัฒนา (Development Status)
 
 - [ ] พัฒนาระบบตรวจวัดความชื้นด้วย ESP32
 - [ ] เตรียมชุดข้อมูลเมล็ดกาแฟ 7 ประเภท
