@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "classes": [
+    "good",
+    "shell",
+    "full_black",
+    "hull_husk",
+    "broken_chipped_cut",
+    "parchment_pergamino",
+    "immature_unripe"
+  ]
+}
