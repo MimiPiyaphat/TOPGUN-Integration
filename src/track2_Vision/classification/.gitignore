@@ -1,4 +1,5 @@
 .venv/
+.torch-cache/
 __pycache__/
 *.py[cod]
 
@@ -11,6 +12,7 @@ results/*
 # Trained model artifacts
 *.pt
 *.pth
+*.pth.json
 *.onnx
 *.tflite
 *.engine

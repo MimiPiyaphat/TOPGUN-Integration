@@ -76,8 +76,11 @@ def build_model(
     number_of_classes: int,
     weights_mode: str,
     freeze_backbone: bool,
+    weights_file: Path | None = None,
 ) -> nn.Module:
-    if weights_mode == "default":
+    if weights_file is not None:
+        weights = None
+    elif weights_mode == "default":
         weights = (
             models.MobileNet_V3_Small_Weights.DEFAULT
             if architecture == "mobilenet_v3_small"
@@ -88,6 +91,8 @@ def build_model(
 
     if architecture == "mobilenet_v3_small":
         model = models.mobilenet_v3_small(weights=weights)
+        if weights_file is not None:
+            load_local_pretrained_weights(model, weights_file, architecture)
         if freeze_backbone:
             for parameter in model.features.parameters():
                 parameter.requires_grad = False
@@ -95,6 +100,8 @@ def build_model(
         model.classifier[-1] = nn.Linear(input_features, number_of_classes)
     elif architecture == "resnet18":
         model = models.resnet18(weights=weights)
+        if weights_file is not None:
+            load_local_pretrained_weights(model, weights_file, architecture)
         if freeze_backbone:
             for name, parameter in model.named_parameters():
                 if not name.startswith("fc."):
@@ -104,6 +111,25 @@ def build_model(
         raise ValueError(f"Unsupported architecture: {architecture}")
 
     return model
+
+
+def load_local_pretrained_weights(model: nn.Module, weights_file: Path, architecture: str) -> None:
+    try:
+        artifact = torch.load(weights_file, map_location="cpu", weights_only=False)
+    except FileNotFoundError as error:
+        raise FileNotFoundError(f"Pretrained weights file not found: {weights_file}") from error
+
+    if not isinstance(artifact, dict):
+        raise ValueError(f"Invalid pretrained weights artifact: {weights_file}")
+    artifact_architecture = artifact.get("architecture")
+    if artifact_architecture != architecture:
+        raise ValueError(
+            f"Weights architecture '{artifact_architecture}' does not match requested '{architecture}'"
+        )
+    state_dict = artifact.get("model_state_dict")
+    if not isinstance(state_dict, dict):
+        raise ValueError(f"Missing model_state_dict in pretrained weights: {weights_file}")
+    model.load_state_dict(state_dict, strict=True)
 
 
 def calculate_class_weights(dataset: CanonicalImageFolder) -> torch.Tensor:
@@ -167,6 +193,11 @@ def parse_args() -> argparse.Namespace:
         default="default",
         help="Use ImageNet pretrained weights or initialize randomly",
     )
+    parser.add_argument(
+        "--weights-file",
+        type=Path,
+        help="Local pretrained weights artifact; avoids network access and overrides --weights",
+    )
     parser.add_argument("--freeze-backbone", action="store_true", help="Train only the classification head")
     parser.add_argument("--epochs", type=int, default=20)
     parser.add_argument("--batch-size", type=int, default=16)
@@ -194,8 +225,8 @@ def main() -> int:
     args = parse_args()
     if args.epochs < 1 or args.batch_size < 1 or args.image_size < 32:
         raise SystemExit("epochs and batch-size must be positive; image-size must be at least 32")
-    if args.freeze_backbone and args.weights == "none":
-        raise SystemExit("--freeze-backbone requires --weights default")
+    if args.freeze_backbone and args.weights == "none" and args.weights_file is None:
+        raise SystemExit("--freeze-backbone requires --weights default or --weights-file")
 
     seed_everything(args.seed)
     class_names = load_classes(args.classes)
@@ -223,7 +254,13 @@ def main() -> int:
     )
 
     device = resolve_device(args.device)
-    model = build_model(args.architecture, len(class_names), args.weights, args.freeze_backbone).to(device)
+    model = build_model(
+        args.architecture,
+        len(class_names),
+        args.weights,
+        args.freeze_backbone,
+        weights_file=args.weights_file,
+    ).to(device)
     class_weights = calculate_class_weights(train_dataset).to(device)
     criterion = nn.CrossEntropyLoss(weight=class_weights)
     optimizer = AdamW(
@@ -281,6 +318,7 @@ def main() -> int:
     summary = {
         "architecture": args.architecture,
         "weights": args.weights,
+        "weights_file": str(args.weights_file) if args.weights_file else None,
         "class_names": class_names,
         "device": str(device),
         "train_images": len(train_dataset),

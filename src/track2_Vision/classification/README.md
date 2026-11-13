@@ -59,3 +59,39 @@ python verify_dataset.py --dataset dataset/official
 ```
 
 ตัวตรวจจะเช็กชื่อคลาส จำนวนภาพ โฟลเดอร์ส่วนเกิน ไฟล์ที่ไม่รองรับ และภาพซ้ำข้าม train/val/test
+
+## Offline pretrained weights
+
+ดาวน์โหลด MobileNetV3 Small ImageNet weights ล่วงหน้าในวันที่มีอินเทอร์เน็ต:
+
+```powershell
+python download_weights.py
+```
+
+ไฟล์จะอยู่ที่ `models/pretrained/mobilenet_v3_small_imagenet.pth` และถูก `.gitignore` ไว้โดยอัตโนมัติ ให้คัดลอกไฟล์นี้สำรองไว้ใน USB สำหรับวันแข่งขัน
+
+ฝึกโมเดลโดยไม่เรียกอินเทอร์เน็ต:
+
+```powershell
+python train.py `
+  --dataset dataset/official `
+  --output results/classification `
+  --architecture mobilenet_v3_small `
+  --weights none `
+  --weights-file models/pretrained/mobilenet_v3_small_imagenet.pth `
+  --freeze-backbone `
+  --epochs 20 `
+  --batch-size 16
+```
+
+ตรวจสอบกติกาของการแข่งขันก่อนใช้ pretrained weights เสมอ หากผู้จัดไม่อนุญาต ให้ตัด `--weights-file` และ `--freeze-backbone` ออก แล้วใช้ `--weights none`
+
+## End-to-end rehearsal
+
+ซ้อมขั้นตอน Verify -> Train -> Predict ด้วยข้อมูลสังเคราะห์และลบไฟล์ทดสอบอัตโนมัติ:
+
+```powershell
+.venv\Scripts\python rehearse_pipeline.py
+```
+
+ดูคำสั่งสำหรับวันแข่งขันทั้งหมดใน `RUNBOOK.md` ค่า accuracy จากการซ้อมด้วยข้อมูลสังเคราะห์ใช้ตรวจ workflow เท่านั้นและห้ามใช้ประเมินคุณภาพโมเดล
