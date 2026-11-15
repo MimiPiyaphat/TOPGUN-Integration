@@ -141,8 +141,8 @@ def generate_piles(beans_dir, bg_dir, output_dir, num_images=200, min_beans=15, 
 
 if __name__ == "__main__":
     generate_piles(
-        beans_dir="extracted_beans_rgba",
-        bg_dir="empty_backgrounds", # ถ่ายรูปพื้นโต๊ะเปล่าๆ 2-3 รูปใส่โฟลเดอร์นี้
-        output_dir="yolo_seg_dataset",
+        beans_dir="datasets/train_processed", # โฟลเดอร์ที่เก็บเม็ดกาแฟ RGBA ที่สกัดจาก extract_beans.py
+        bg_dir="datasets/backgrounds", # ถ่ายรูปพื้นโต๊ะเปล่าๆ 2-3 รูปใส่โฟลเดอร์นี้
+        output_dir="datasets/synthetic_piles", # โฟลเดอร์ผลลัพธ์
         num_images=300
     )

@@ -69,5 +69,5 @@ def extract_single_beans(input_dir, output_dir, min_area=1500, max_area=50000):
         print(f"[{class_name}] สกัดเม็ดกาแฟสำเร็จ: {bean_count} เม็ด")
 
 if __name__ == "__main__":
-    # โครงสร้างโฟลเดอร์: dataset_train_raw/Good/img1.jpg
-    extract_single_beans("dataset_train_raw", "extracted_beans_rgba")
+    # โครงสร้างโฟลเดอร์: datasets/train/Good/img1.jpg
+    extract_single_beans("datasets/train", "datasets/train_processed")
