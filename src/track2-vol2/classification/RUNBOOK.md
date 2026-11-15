@@ -84,10 +84,22 @@ dataset/official/
 
 ## 6. Handoff to Q / Raspberry Pi
 
+Export และตรวจ ONNX ก่อนส่งให้ Q:
+
+```powershell
+.venv\Scripts\python export_onnx.py `
+  --checkpoint results/classification-baseline/best_model.pt `
+  --output results/classification-baseline/coffee_classifier.onnx
+```
+
 ส่งให้ Q อย่างน้อย:
 
 - `best_model.pt`
+- `coffee_classifier.onnx`
+- `coffee_classifier.onnx.json`
 - `class_names.json`
 - ภาพทดสอบ 3-5 ภาพ
 - JSON ตัวอย่างจาก `predict.py`
 - ค่า `image_size` และ `architecture` ที่บันทึกอยู่ใน checkpoint
+
+ดูขั้นตอนฝั่ง Raspberry Pi ใน `RASPBERRY_PI.md`

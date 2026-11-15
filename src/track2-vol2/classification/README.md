@@ -88,7 +88,7 @@ python train.py `
 
 ## End-to-end rehearsal
 
-ซ้อมขั้นตอน Verify -> Train -> Predict ด้วยข้อมูลสังเคราะห์และลบไฟล์ทดสอบอัตโนมัติ:
+ซ้อมขั้นตอน Verify -> Train -> Predict -> Export ONNX -> ONNX Predict ด้วยข้อมูลสังเคราะห์และลบไฟล์ทดสอบอัตโนมัติ:
 
 ```powershell
 .venv\Scripts\python rehearse_pipeline.py
