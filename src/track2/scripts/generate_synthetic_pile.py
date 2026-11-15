@@ -140,9 +140,11 @@ def generate_piles(beans_dir, bg_dir, output_dir, num_images=200, min_beans=15, 
     print(f"สร้างชุดข้อมูลจำลองกองเมล็ดกาแฟสำเร็จ: {num_images} ภาพ")
 
 if __name__ == "__main__":
+    BASE_DIR = Path(__file__).resolve().parents[1]
+
     generate_piles(
-        beans_dir="datasets/train_processed", # โฟลเดอร์ที่เก็บเม็ดกาแฟ RGBA ที่สกัดจาก extract_beans.py
-        bg_dir="datasets/backgrounds", # ถ่ายรูปพื้นโต๊ะเปล่าๆ 2-3 รูปใส่โฟลเดอร์นี้
-        output_dir="datasets/synthetic_piles", # โฟลเดอร์ผลลัพธ์
-        num_images=300
+        beans_dir=BASE_DIR / "datasets" / "train_processed",
+        bg_dir=BASE_DIR / "datasets" / "backgrounds",
+        output_dir=BASE_DIR / "datasets" / "synthetic_piles",
+        num_images=300,
     )
