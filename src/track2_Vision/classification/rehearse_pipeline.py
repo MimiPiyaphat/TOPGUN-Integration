@@ -89,6 +89,8 @@ def main() -> int:
         dataset_root = rehearsal_root / "dataset"
         output_root = rehearsal_root / "output"
         prediction_path = output_root / "prediction.json"
+        onnx_model_path = output_root / "coffee_classifier.onnx"
+        onnx_prediction_path = output_root / "onnx_prediction.json"
         create_mock_dataset(dataset_root, classes)
 
         timings["verify"] = run_command(
@@ -146,6 +148,35 @@ def main() -> int:
             ],
             "predict",
         )
+        timings["export_onnx"] = run_command(
+            [
+                sys.executable,
+                "export_onnx.py",
+                "--checkpoint",
+                str(output_root / "best_model.pt"),
+                "--output",
+                str(onnx_model_path),
+                "--benchmark-iterations",
+                "10",
+            ],
+            "export_onnx",
+        )
+        timings["onnx_predict"] = run_command(
+            [
+                sys.executable,
+                "onnx_predict.py",
+                "--model",
+                str(onnx_model_path),
+                "--image",
+                str(dataset_root / "val" / "good" / "good_0.jpg"),
+                "--lot-id",
+                "lot-rehearsal-001",
+                "--output",
+                str(onnx_prediction_path),
+                "--pretty",
+            ],
+            "onnx_predict",
+        )
 
         with prediction_path.open(encoding="utf-8") as stream:
             prediction = json.load(stream)
@@ -155,6 +186,17 @@ def main() -> int:
             raise RuntimeError("Prediction JSON contains a non-canonical class")
         if prediction.get("data", {}).get("status") != "ok":
             raise RuntimeError("Prediction JSON status is not ok")
+        with onnx_prediction_path.open(encoding="utf-8") as stream:
+            onnx_prediction = json.load(stream)
+        if onnx_prediction.get("data", {}).get("predicted_class") != prediction["data"]["predicted_class"]:
+            raise RuntimeError("PyTorch and ONNX predicted different classes")
+        confidence_difference = abs(
+            onnx_prediction["data"]["confidence"] - prediction["data"]["confidence"]
+        )
+        if confidence_difference > 1e-4:
+            raise RuntimeError(
+                f"PyTorch/ONNX confidence difference is too high: {confidence_difference}"
+            )
 
     print("\n=== REHEARSAL PASSED ===")
     for label, elapsed in timings.items():

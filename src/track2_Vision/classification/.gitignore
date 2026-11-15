@@ -14,5 +14,6 @@ results/*
 *.pth
 *.pth.json
 *.onnx
+*.onnx.json
 *.tflite
 *.engine
