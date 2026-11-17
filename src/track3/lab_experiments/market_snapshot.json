@@ -1,0 +1,565 @@
+{
+  "state": {
+    "http_status": 200,
+    "body": {
+      "server_time": 1794916442.8299031,
+      "market": "sandbox",
+      "team_id": "T12",
+      "phase": "CLOSED",
+      "paused": false,
+      "phase_ends_at": null,
+      "seconds_left": null,
+      "round": {
+        "round_id": "R6",
+        "kind": "real",
+        "number": 6,
+        "of": 6,
+        "counts_for_score": true,
+        "calendar": "ปกติ"
+      },
+      "lots": [
+        {
+          "lot_id": "LOT-T12-1",
+          "kg_total": 240,
+          "kg_remaining": 0,
+          "kg_in_open_offers": 0,
+          "kg_available": 0,
+          "origin": "ชุมพร - ท่าแซะ",
+          "process": "Honey",
+          "sample": {
+            "defect_pct": 2.09,
+            "moisture_pct": 10.85,
+            "screen": 14
+          }
+        },
+        {
+          "lot_id": "LOT-T12-2",
+          "kg_total": 240,
+          "kg_remaining": 0,
+          "kg_in_open_offers": 0,
+          "kg_available": 0,
+          "origin": "ชุมพร - หลังสวน",
+          "process": "Washed",
+          "sample": {
+            "defect_pct": 2.6,
+            "moisture_pct": 11.29,
+            "screen": 13
+          }
+        },
+        {
+          "lot_id": "LOT-T12-3",
+          "kg_total": 240,
+          "kg_remaining": 0,
+          "kg_in_open_offers": 0,
+          "kg_available": 0,
+          "origin": "ชุมพร - ท่าแซะ",
+          "process": "Washed",
+          "sample": {
+            "defect_pct": 6.78,
+            "moisture_pct": 13.65,
+            "screen": 16
+          }
+        },
+        {
+          "lot_id": "LOT-T12-4",
+          "kg_total": 480,
+          "kg_remaining": 0,
+          "kg_in_open_offers": 0,
+          "kg_available": 0,
+          "origin": "ชุมพร - หลังสวน",
+          "process": "Honey",
+          "sample": {
+            "defect_pct": 5.2,
+            "moisture_pct": 12.83,
+            "screen": 17
+          }
+        }
+      ],
+      "rfqs": [],
+      "my_open_offers": [],
+      "round_capacity_kg": null,
+      "capacity_left_kg": null,
+      "appraisal_submitted": true,
+      "last_results": {
+        "round_id": "R6",
+        "kind": "real",
+        "my_offers": [],
+        "market_summary": [
+          {
+            "rfq_id": "R6-01",
+            "buyer": "6 ทรีอินวันฟู้ดส์",
+            "buyer_type": "INSTANT",
+            "wanted_kg": 540,
+            "bought_kg": 180,
+            "offers": 11,
+            "price_min": 115.08,
+            "price_max": 115.08,
+            "price_avg": 115.08
+          },
+          {
+            "rfq_id": "R6-02",
+            "buyer": "3 สยามคอมเมิร์ซ",
+            "buyer_type": "COMMERCIAL",
+            "wanted_kg": 600,
+            "bought_kg": 600,
+            "offers": 5,
+            "price_min": 107.03,
+            "price_max": 132.86,
+            "price_avg": 117.37
+          },
+          {
+            "rfq_id": "R6-03",
+            "buyer": "4 ชุมพรคั่วบด",
+            "buyer_type": "COMMERCIAL",
+            "wanted_kg": 540,
+            "bought_kg": 480,
+            "offers": 3,
+            "price_min": 115.81,
+            "price_max": 130.98,
+            "price_avg": 120.59
+          },
+          {
+            "rfq_id": "R6-04",
+            "buyer": "6 ทรีอินวันฟู้ดส์",
+            "buyer_type": "INSTANT",
+            "wanted_kg": 360,
+            "bought_kg": 60,
+            "offers": 1,
+            "price_min": 116.25,
+            "price_max": 116.25,
+            "price_avg": 116.25
+          },
+          {
+            "rfq_id": "R6-05",
+            "buyer": "4 ชุมพรคั่วบด",
+            "buyer_type": "COMMERCIAL",
+            "wanted_kg": 720,
+            "bought_kg": 420,
+            "offers": 2,
+            "price_min": 121.34,
+            "price_max": 128.46,
+            "price_avg": 122.36
+          },
+          {
+            "rfq_id": "R6-06",
+            "buyer": "3 สยามคอมเมิร์ซ",
+            "buyer_type": "COMMERCIAL",
+            "wanted_kg": 540,
+            "bought_kg": 0,
+            "offers": 0,
+            "price_min": null,
+            "price_max": null,
+            "price_avg": null
+          },
+          {
+            "rfq_id": "R6-07",
+            "buyer": "5 อินสแตนท์ไทย",
+            "buyer_type": "INSTANT",
+            "wanted_kg": 720,
+            "bought_kg": 0,
+            "offers": 6,
+            "price_min": null,
+            "price_max": null,
+            "price_avg": null
+          },
+          {
+            "rfq_id": "R6-08",
+            "buyer": "5 อินสแตนท์ไทย",
+            "buyer_type": "INSTANT",
+            "wanted_kg": 360,
+            "bought_kg": 0,
+            "offers": 6,
+            "price_min": null,
+            "price_max": null,
+            "price_avg": null
+          }
+        ]
+      },
+      "standings": {
+        "revenue_thb": 127834.2,
+        "kg_sold": 1200,
+        "kg_remaining": 0,
+        "kg_total": 1200,
+        "avg_price_per_kg": 106.53
+      },
+      "salvage_ratio": 0.8
+    }
+  },
+  "leaderboard": {
+    "http_status": 200,
+    "body": {
+      "frozen": false,
+      "final": true,
+      "ranking": [
+        {
+          "rank": 1,
+          "team_id": "BOT01",
+          "name": "บอตปรับราคา 01",
+          "pr": 0.9903,
+          "pr_score": 80.0,
+          "appraisal_score": 20.0,
+          "total": 100.0
+        },
+        {
+          "rank": 2,
+          "team_id": "BOT02",
+          "name": "บอตราคาคงที่ 02",
+          "pr": 0.9824,
+          "pr_score": 76.6578,
+          "appraisal_score": 20.0,
+          "total": 96.6578
+        },
+        {
+          "rank": 3,
+          "team_id": "BOT17",
+          "name": "บอตราคาคงที่ 17",
+          "pr": 0.9602,
+          "pr_score": 67.336,
+          "appraisal_score": 20.0,
+          "total": 87.336
+        },
+        {
+          "rank": 4,
+          "team_id": "BOT13",
+          "name": "บอตปรับราคา 13",
+          "pr": 0.9595,
+          "pr_score": 67.0503,
+          "appraisal_score": 20.0,
+          "total": 87.0503
+        },
+        {
+          "rank": 5,
+          "team_id": "BOT04",
+          "name": "บอตปรับราคา 04",
+          "pr": 0.9492,
+          "pr_score": 62.7046,
+          "appraisal_score": 20.0,
+          "total": 82.7046
+        },
+        {
+          "rank": 6,
+          "team_id": "BOT19",
+          "name": "บอตปรับราคา 19",
+          "pr": 0.937,
+          "pr_score": 57.5808,
+          "appraisal_score": 20.0,
+          "total": 77.5808
+        },
+        {
+          "rank": 7,
+          "team_id": "T12",
+          "name": "aas · kusrc",
+          "pr": 0.9355,
+          "pr_score": 56.9713,
+          "appraisal_score": 20.0,
+          "total": 76.9713
+        },
+        {
+          "rank": 8,
+          "team_id": "BOT16",
+          "name": "บอตปรับราคา 16",
+          "pr": 0.9341,
+          "pr_score": 56.3742,
+          "appraisal_score": 20.0,
+          "total": 76.3742
+        },
+        {
+          "rank": 9,
+          "team_id": "BOT14",
+          "name": "บอตราคาคงที่ 14",
+          "pr": 0.9248,
+          "pr_score": 52.4586,
+          "appraisal_score": 20.0,
+          "total": 72.4586
+        },
+        {
+          "rank": 10,
+          "team_id": "BOT10",
+          "name": "บอตปรับราคา 10",
+          "pr": 0.9216,
+          "pr_score": 51.1069,
+          "appraisal_score": 20.0,
+          "total": 71.1069
+        },
+        {
+          "rank": 11,
+          "team_id": "BOT11",
+          "name": "บอตราคาคงที่ 11",
+          "pr": 0.9062,
+          "pr_score": 44.6314,
+          "appraisal_score": 20.0,
+          "total": 64.6314
+        },
+        {
+          "rank": 12,
+          "team_id": "BOT07",
+          "name": "บอตปรับราคา 07",
+          "pr": 0.897,
+          "pr_score": 40.7852,
+          "appraisal_score": 20.0,
+          "total": 60.7852
+        },
+        {
+          "rank": 13,
+          "team_id": "BOT05",
+          "name": "บอตราคาคงที่ 05",
+          "pr": 0.8735,
+          "pr_score": 30.8933,
+          "appraisal_score": 20.0,
+          "total": 50.8933
+        },
+        {
+          "rank": 14,
+          "team_id": "BOT18",
+          "name": "บอตสุ่ม 18",
+          "pr": 0.903,
+          "pr_score": 43.3154,
+          "appraisal_score": 6.1884,
+          "total": 49.5038
+        },
+        {
+          "rank": 15,
+          "team_id": "BOT03",
+          "name": "บอตสุ่ม 03",
+          "pr": 0.8927,
+          "pr_score": 38.9516,
+          "appraisal_score": 3.299,
+          "total": 42.2506
+        },
+        {
+          "rank": 16,
+          "team_id": "BOT08",
+          "name": "บอตราคาคงที่ 08",
+          "pr": 0.8456,
+          "pr_score": 19.1625,
+          "appraisal_score": 20.0,
+          "total": 39.1625
+        },
+        {
+          "rank": 17,
+          "team_id": "BOT06",
+          "name": "บอตสุ่ม 06",
+          "pr": 0.8726,
+          "pr_score": 30.5342,
+          "appraisal_score": 6.865,
+          "total": 37.3993
+        },
+        {
+          "rank": 18,
+          "team_id": "BOT15",
+          "name": "บอตสุ่ม 15",
+          "pr": 0.8695,
+          "pr_score": 29.1991,
+          "appraisal_score": 2.6622,
+          "total": 31.8613
+        },
+        {
+          "rank": 19,
+          "team_id": "BOT12",
+          "name": "บอตสุ่ม 12",
+          "pr": 0.8653,
+          "pr_score": 27.4601,
+          "appraisal_score": 3.6009,
+          "total": 31.0609
+        },
+        {
+          "rank": 20,
+          "team_id": "BOT09",
+          "name": "บอตสุ่ม 09",
+          "pr": 0.8307,
+          "pr_score": 12.901,
+          "appraisal_score": 0.0,
+          "total": 12.901
+        }
+      ]
+    }
+  },
+  "sandbox/reveal": {
+    "http_status": 200,
+    "body": {
+      "lots": [
+        {
+          "lot_id": "LOT-T12-1",
+          "true": {
+            "defect_pct": 2.09,
+            "moisture_pct": 10.85,
+            "screen": 14
+          },
+          "sample": {
+            "defect_pct": 2.09,
+            "moisture_pct": 10.85,
+            "screen": 14
+          },
+          "true_grade": "GRADE_1",
+          "true_value_per_kg": 122.19,
+          "your_estimate": {
+            "grade": "GRADE_1",
+            "est_value_per_kg": 122.19
+          }
+        },
+        {
+          "lot_id": "LOT-T12-2",
+          "true": {
+            "defect_pct": 2.6,
+            "moisture_pct": 11.29,
+            "screen": 13
+          },
+          "sample": {
+            "defect_pct": 2.6,
+            "moisture_pct": 11.29,
+            "screen": 13
+          },
+          "true_grade": "GRADE_1",
+          "true_value_per_kg": 117.91,
+          "your_estimate": {
+            "grade": "GRADE_1",
+            "est_value_per_kg": 117.91
+          }
+        },
+        {
+          "lot_id": "LOT-T12-3",
+          "true": {
+            "defect_pct": 6.78,
+            "moisture_pct": 13.65,
+            "screen": 16
+          },
+          "sample": {
+            "defect_pct": 6.78,
+            "moisture_pct": 13.65,
+            "screen": 16
+          },
+          "true_grade": "GRADE_3",
+          "true_value_per_kg": 106.61,
+          "your_estimate": {
+            "grade": "GRADE_3",
+            "est_value_per_kg": 106.61
+          }
+        },
+        {
+          "lot_id": "LOT-T12-4",
+          "true": {
+            "defect_pct": 5.2,
+            "moisture_pct": 12.83,
+            "screen": 17
+          },
+          "sample": {
+            "defect_pct": 5.2,
+            "moisture_pct": 12.83,
+            "screen": 17
+          },
+          "true_grade": "GRADE_3",
+          "true_value_per_kg": 111.32,
+          "your_estimate": {
+            "grade": "GRADE_3",
+            "est_value_per_kg": 111.32
+          }
+        }
+      ],
+      "score": {
+        "team_id": "T12",
+        "name": "aas · kusrc",
+        "pr": 0.9355,
+        "mape": 0.0,
+        "appraisal_at": 5.877578020095825,
+        "pr_score": 56.9713,
+        "appraisal_score": 20.0,
+        "total": 76.9713,
+        "rank": 7
+      }
+    }
+  },
+  "standings": {
+    "http_status": 200,
+    "body": {
+      "revenue_thb": 127834.2,
+      "kg_sold": 1200,
+      "kg_remaining": 0,
+      "kg_total": 1200,
+      "avg_price_per_kg": 106.53
+    }
+  },
+  "calendar": {
+    "http_status": 200,
+    "body": {
+      "calendar": [
+        {
+          "rounds": "1-6",
+          "label": "ปกติ",
+          "demand_weight": 1.0,
+          "specialty_share": null
+        }
+      ],
+      "rules": {
+        "bag_kg": 60,
+        "round_capacity": null,
+        "round_capacity_factor": null,
+        "salvage_ratio": 0.8,
+        "true_value_formula": "TV = P0 × G(d) × M(m) × S(s)",
+        "p0": 120.0,
+        "defect_steps": [
+          {
+            "max_defect_pct": 1.0,
+            "step": 1.08,
+            "grade": "PREMIUM"
+          },
+          {
+            "max_defect_pct": 3.0,
+            "step": 1.04,
+            "grade": "GRADE_1"
+          },
+          {
+            "max_defect_pct": 5.0,
+            "step": 1.0,
+            "grade": "GRADE_2"
+          },
+          {
+            "max_defect_pct": 7.0,
+            "step": 0.96,
+            "grade": "GRADE_3"
+          },
+          {
+            "max_defect_pct": 15.0,
+            "step": 0.85,
+            "grade": "BELOW_STANDARD"
+          },
+          {
+            "max_defect_pct": 100.0,
+            "step": 0.6,
+            "grade": "REJECT"
+          }
+        ],
+        "G": "G(d) = (1 − d/100) × step(d)",
+        "M": "M = 1 if m ≤ 12.5; (1 − m/100)/(1 − 12.5/100) − 0.02 × (m − 12.5) if m ≤ 15.0; 0.6 above",
+        "moisture": {
+          "ref": 12.5,
+          "penalty_per_pp": 0.02,
+          "hard_limit": 15.0,
+          "hard_factor": 0.6
+        },
+        "screen_factors": {
+          "12": 0.92,
+          "13": 0.97,
+          "14": 1.0,
+          "15": 1.0,
+          "16": 1.03,
+          "17": 1.03,
+          "18": 1.06
+        },
+        "scoring": {
+          "pr_points": 80.0,
+          "appraisal_points": 20.0,
+          "appraisal_zero_at_mape": 0.1,
+          "leaderboard_freeze_after_round": 99
+        },
+        "timeline": {
+          "setup_s": 5,
+          "appraisal_s": 300,
+          "practice_rounds": 0,
+          "rounds": 6,
+          "open_s": 180,
+          "clearing_s": 10
+        }
+      }
+    }
+  }
+}

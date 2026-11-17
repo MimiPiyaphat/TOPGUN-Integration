@@ -1,0 +1,8431 @@
+{
+  "stage": "combine",
+  "policies": [
+    "buyer_start",
+    "buyer_volume",
+    "buyer_combo94",
+    "buyer_combo97"
+  ],
+  "summary": {
+    "buyer_combo94": {
+      "fields": {
+        "sandbox": {
+          "pr": 0.8781392002937445,
+          "rank": 1.7,
+          "top5": 0.9,
+          "eligible_sell_rate": 0.8565400843881856
+        },
+        "scarce": {
+          "pr": 0.8530478191437191,
+          "rank": 2.1,
+          "top5": 0.8,
+          "eligible_sell_rate": 0.7172995780590717
+        },
+        "abundant": {
+          "pr": 0.8941618217245886,
+          "rank": 2.3,
+          "top5": 0.8,
+          "eligible_sell_rate": 0.9704641350210971
+        },
+        "heterogeneous": {
+          "pr": 0.8826743650916411,
+          "rank": 2.0,
+          "top5": 0.9,
+          "eligible_sell_rate": 0.8059071729957806
+        },
+        "low_ceiling": {
+          "pr": 0.8612075023871365,
+          "rank": 1.9,
+          "top5": 0.9,
+          "eligible_sell_rate": 0.8227848101265823
+        },
+        "high_ceiling": {
+          "pr": 0.89561066704746,
+          "rank": 2.2,
+          "top5": 0.9,
+          "eligible_sell_rate": 0.7805907172995781
+        },
+        "flat": {
+          "pr": 0.8843422331957739,
+          "rank": 1.7,
+          "top5": 0.9,
+          "eligible_sell_rate": 0.729957805907173
+        },
+        "shared_noise": {
+          "pr": 0.8725701195430619,
+          "rank": 2.1,
+          "top5": 0.8,
+          "eligible_sell_rate": 0.8438818565400844
+        },
+        "day18_56": {
+          "pr": 0.8879137952308677,
+          "rank": 4.9,
+          "top5": 0.7,
+          "eligible_sell_rate": 0.890295358649789
+        },
+        "day18_noise": {
+          "pr": 0.8797853534959895,
+          "rank": 8.3,
+          "top5": 0.6,
+          "eligible_sell_rate": 0.7679324894514767
+        },
+        "copies": {
+          "pr": 0.8609261799585072,
+          "rank": 1.2,
+          "top5": 1.0,
+          "eligible_sell_rate": 0.6624472573839663
+        }
+      },
+      "mean_rank": 2.7636363636363637,
+      "worst_field": 8.3,
+      "pr": 0.8773071870102264
+    },
+    "buyer_combo97": {
+      "fields": {
+        "sandbox": {
+          "pr": 0.8810005588310487,
+          "rank": 1.4,
+          "top5": 1.0,
+          "eligible_sell_rate": 0.8396624472573839
+        },
+        "scarce": {
+          "pr": 0.8517865171949187,
+          "rank": 2.6,
+          "top5": 0.9,
+          "eligible_sell_rate": 0.569620253164557
+        },
+        "abundant": {
+          "pr": 0.8934692966106406,
+          "rank": 1.5,
+          "top5": 1.0,
+          "eligible_sell_rate": 0.9240506329113924
+        },
+        "heterogeneous": {
+          "pr": 0.8857834996803226,
+          "rank": 1.9,
+          "top5": 0.9,
+          "eligible_sell_rate": 0.7637130801687764
+        },
+        "low_ceiling": {
+          "pr": 0.85781196916805,
+          "rank": 2.3,
+          "top5": 0.8,
+          "eligible_sell_rate": 0.7679324894514767
+        },
+        "high_ceiling": {
+          "pr": 0.8992249952384244,
+          "rank": 1.9,
+          "top5": 0.9,
+          "eligible_sell_rate": 0.7932489451476793
+        },
+        "flat": {
+          "pr": 0.8817685366770823,
+          "rank": 2.5,
+          "top5": 0.8,
+          "eligible_sell_rate": 0.7215189873417721
+        },
+        "shared_noise": {
+          "pr": 0.8736684115438753,
+          "rank": 2.3,
+          "top5": 0.8,
+          "eligible_sell_rate": 0.7932489451476793
+        },
+        "day18_56": {
+          "pr": 0.8886760207468986,
+          "rank": 5.3,
+          "top5": 0.7,
+          "eligible_sell_rate": 0.8312236286919831
+        },
+        "day18_noise": {
+          "pr": 0.8806342098418577,
+          "rank": 6.4,
+          "top5": 0.7,
+          "eligible_sell_rate": 0.7468354430379747
+        },
+        "copies": {
+          "pr": 0.8595623586916189,
+          "rank": 2.1,
+          "top5": 0.9,
+          "eligible_sell_rate": 0.5991561181434599
+        }
+      },
+      "mean_rank": 2.7454545454545456,
+      "worst_field": 6.4,
+      "pr": 0.8775805794749761
+    },
+    "buyer_start": {
+      "fields": {
+        "sandbox": {
+          "pr": 0.8753812748803705,
+          "rank": 2.6,
+          "top5": 0.9,
+          "eligible_sell_rate": 0.9156118143459916
+        },
+        "scarce": {
+          "pr": 0.8525915635657537,
+          "rank": 2.0,
+          "top5": 0.9,
+          "eligible_sell_rate": 0.810126582278481
+        },
+        "abundant": {
+          "pr": 0.8897226351457391,
+          "rank": 1.9,
+          "top5": 0.9,
+          "eligible_sell_rate": 0.9662447257383966
+        },
+        "heterogeneous": {
+          "pr": 0.8799356233250928,
+          "rank": 2.3,
+          "top5": 0.8,
+          "eligible_sell_rate": 0.8354430379746836
+        },
+        "low_ceiling": {
+          "pr": 0.8614403769367343,
+          "rank": 1.3,
+          "top5": 1.0,
+          "eligible_sell_rate": 0.8481012658227848
+        },
+        "high_ceiling": {
+          "pr": 0.8983709948574825,
+          "rank": 1.5,
+          "top5": 1.0,
+          "eligible_sell_rate": 0.9282700421940928
+        },
+        "flat": {
+          "pr": 0.8861697902510771,
+          "rank": 1.5,
+          "top5": 1.0,
+          "eligible_sell_rate": 0.9029535864978903
+        },
+        "shared_noise": {
+          "pr": 0.8675062891144615,
+          "rank": 3.6,
+          "top5": 0.8,
+          "eligible_sell_rate": 0.8860759493670886
+        },
+        "day18_56": {
+          "pr": 0.8839869327270609,
+          "rank": 6.8,
+          "top5": 0.8,
+          "eligible_sell_rate": 0.9409282700421941
+        },
+        "day18_noise": {
+          "pr": 0.8766303103351706,
+          "rank": 9.9,
+          "top5": 0.5,
+          "eligible_sell_rate": 0.8059071729957806
+        },
+        "copies": {
+          "pr": 0.8563143465289758,
+          "rank": 1.5,
+          "top5": 1.0,
+          "eligible_sell_rate": 0.6708860759493671
+        }
+      },
+      "mean_rank": 3.172727272727273,
+      "worst_field": 9.9,
+      "pr": 0.8752772852425381
+    },
+    "buyer_volume": {
+      "fields": {
+        "sandbox": {
+          "pr": 0.8738497119779987,
+          "rank": 3.4,
+          "top5": 0.8,
+          "eligible_sell_rate": 0.8185654008438819
+        },
+        "scarce": {
+          "pr": 0.8369078635348244,
+          "rank": 7.3,
+          "top5": 0.4,
+          "eligible_sell_rate": 0.4430379746835443
+        },
+        "abundant": {
+          "pr": 0.890915473551219,
+          "rank": 2.65,
+          "top5": 0.7,
+          "eligible_sell_rate": 0.9156118143459916
+        },
+        "heterogeneous": {
+          "pr": 0.8717898143903041,
+          "rank": 3.4,
+          "top5": 0.7,
+          "eligible_sell_rate": 0.7426160337552743
+        },
+        "low_ceiling": {
+          "pr": 0.854248690817059,
+          "rank": 3.6,
+          "top5": 0.6,
+          "eligible_sell_rate": 0.7552742616033755
+        },
+        "high_ceiling": {
+          "pr": 0.8790093193898416,
+          "rank": 5.0,
+          "top5": 0.6,
+          "eligible_sell_rate": 0.759493670886076
+        },
+        "flat": {
+          "pr": 0.8660668164436812,
+          "rank": 4.7,
+          "top5": 0.6,
+          "eligible_sell_rate": 0.7046413502109705
+        },
+        "shared_noise": {
+          "pr": 0.8674078984080223,
+          "rank": 4.1,
+          "top5": 0.6,
+          "eligible_sell_rate": 0.759493670886076
+        },
+        "day18_56": {
+          "pr": 0.8893091697116992,
+          "rank": 5.4,
+          "top5": 0.7,
+          "eligible_sell_rate": 0.8270042194092827
+        },
+        "day18_noise": {
+          "pr": 0.8801888339103157,
+          "rank": 6.1,
+          "top5": 0.7,
+          "eligible_sell_rate": 0.7341772151898734
+        },
+        "copies": {
+          "pr": 0.8388270848317657,
+          "rank": 8.35,
+          "top5": 0.5,
+          "eligible_sell_rate": 0.39662447257383965
+        }
+      },
+      "mean_rank": 4.909090909090909,
+      "worst_field": 8.35,
+      "pr": 0.8680473342697028
+    }
+  },
+  "rows": [
+    {
+      "field": "sandbox",
+      "policy": "buyer_start",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8566603595755696,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1620,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 18,
+        "OUTBID": 16,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_start",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8493537166362636,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 10,
+        "OUTBID": 16,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_start",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9062424014510586,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "PARTIAL": 4,
+        "OUTBID": 10,
+        "ACCEPTED": 20
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_start",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9150104957334958,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 16,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_start",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8470176041603559,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 16,
+        "OUTBID": 22
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_start",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8376849651491505,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 10,
+        "OUTBID": 11,
+        "PARTIAL": 4
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_start",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8933280573869123,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 15,
+        "OUTBID": 7,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_start",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.908430952881658,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 17,
+        "OUTBID": 19,
+        "ABOVE_LIMIT": 2
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_start",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8569804397502838,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 12,
+        "OUTBID": 21
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_start",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8831037560789576,
+      "rank": 11.0,
+      "rank_best": 11,
+      "rank_worst": 11,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 8,
+        "OUTBID": 10,
+        "PARTIAL": 4,
+        "ABOVE_LIMIT": 10
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_volume",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8279785648870319,
+      "rank": 10.0,
+      "rank_best": 10,
+      "rank_worst": 10,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "OUTBID": 31,
+        "ACCEPTED": 7,
+        "PARTIAL": 5
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_volume",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8459138392061468,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 17,
+        "PARTIAL": 1,
+        "ACCEPTED": 7
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_volume",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9108749919536907,
+      "rank": 3.0,
+      "rank_best": 3,
+      "rank_worst": 3,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "PARTIAL": 4,
+        "OUTBID": 17,
+        "ACCEPTED": 14
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_volume",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9065682831568722,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 11,
+        "PARTIAL": 3,
+        "OUTBID": 8
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_volume",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8390397824084805,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "ACCEPTED": 12,
+        "OUTBID": 26,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_volume",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8274837079445194,
+      "rank": 6.0,
+      "rank_best": 5,
+      "rank_worst": 7,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "PARTIAL": 4,
+        "ACCEPTED": 6,
+        "OUTBID": 14
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_volume",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8914912242239657,
+      "rank": 5.0,
+      "rank_best": 5,
+      "rank_worst": 5,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 9,
+        "ACCEPTED": 10,
+        "PARTIAL": 2,
+        "OUTBID": 10
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_volume",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9243772445947729,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 15,
+        "OUTBID": 15,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_volume",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8606997166173892,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 9,
+        "OUTBID": 19
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_volume",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9040697647871173,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 10,
+        "PARTIAL": 5,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo94",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8458078260000219,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 13,
+        "OUTBID": 21,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo94",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8594099104126026,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 9,
+        "OUTBID": 17,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo94",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9052799836384754,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "PARTIAL": 3,
+        "OUTBID": 14,
+        "ACCEPTED": 17
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo94",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9151926246850219,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 16,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo94",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8407731874402646,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 13,
+        "OUTBID": 27
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo94",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8376849651491505,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 10,
+        "OUTBID": 14,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo94",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8939006761275943,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 14,
+        "OUTBID": 10
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo94",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9290675532526096,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 18,
+        "OUTBID": 18,
+        "ABOVE_LIMIT": 2
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo94",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8481831193844066,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 7,
+        "OUTBID": 25,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo94",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9060921568472969,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 12,
+        "OUTBID": 11,
+        "PARTIAL": 3,
+        "ABOVE_LIMIT": 4
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo97",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8568410539645733,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 12,
+        "OUTBID": 26,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo97",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8390652215272282,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 12,
+        "ACCEPTED": 10
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo97",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9140257645544098,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "PARTIAL": 3,
+        "OUTBID": 18,
+        "ACCEPTED": 17
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo97",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9297468706055086,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 16,
+        "OUTBID": 9
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo97",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8471189592685998,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 15,
+        "ACCEPTED": 10,
+        "OUTBID": 23
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo97",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8375795642728351,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 7,
+        "OUTBID": 18
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo97",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.9031088122743354,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 14,
+        "OUTBID": 8
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo97",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9242938950063457,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 19,
+        "OUTBID": 15
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo97",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8489799411076756,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 10,
+        "PARTIAL": 1,
+        "OUTBID": 16
+      }
+    },
+    {
+      "field": "sandbox",
+      "policy": "buyer_combo97",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9092455057289749,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 12,
+        "OUTBID": 9,
+        "ABOVE_LIMIT": 10,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_start",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.850918044834121,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1860,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 16,
+        "ACCEPTED": 20
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_start",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8275105890134101,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 19,
+        "ACCEPTED": 7,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_start",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.8571129763919751,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 28,
+        "PARTIAL": 3,
+        "ACCEPTED": 10
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_start",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.8885006920217817,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 14,
+        "OUTBID": 20
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_start",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.839882890426602,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 13,
+        "OUTBID": 21,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_start",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8307121359274375,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 7,
+        "OUTBID": 17,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_start",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8695725030101292,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 11,
+        "OUTBID": 13,
+        "PARTIAL": 4
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_start",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.8679423501841624,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "OUTBID": 27,
+        "ACCEPTED": 14,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_start",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8421707592422221,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "OUTBID": 20,
+        "ACCEPTED": 13
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_start",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.851592694605696,
+      "rank": 3.0,
+      "rank_best": 3,
+      "rank_worst": 3,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "OUTBID": 25,
+        "PARTIAL": 4,
+        "ACCEPTED": 7,
+        "ABOVE_LIMIT": 1
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_volume",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8063058808057165,
+      "rank": 13.0,
+      "rank_best": 13,
+      "rank_worst": 13,
+      "sold_kg": 240,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "OUTBID": 27,
+        "PARTIAL": 4
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_volume",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8126219935949881,
+      "rank": 9.0,
+      "rank_best": 9,
+      "rank_worst": 9,
+      "sold_kg": 360,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 21,
+        "ACCEPTED": 4
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_volume",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.8569654091090398,
+      "rank": 6.0,
+      "rank_best": 6,
+      "rank_worst": 6,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 34,
+        "ACCEPTED": 7
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_volume",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.8663408785324732,
+      "rank": 12.0,
+      "rank_best": 12,
+      "rank_worst": 12,
+      "sold_kg": 540,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 7,
+        "OUTBID": 22,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_volume",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8178985749795228,
+      "rank": 5.0,
+      "rank_best": 5,
+      "rank_worst": 5,
+      "sold_kg": 540,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "PARTIAL": 7,
+        "OUTBID": 23,
+        "ACCEPTED": 2
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_volume",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8167762319064766,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 540,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "PARTIAL": 6,
+        "OUTBID": 14,
+        "ACCEPTED": 1
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_volume",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8728251907615531,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 5,
+        "PARTIAL": 6,
+        "OUTBID": 13
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_volume",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.8461507879826764,
+      "rank": 12.0,
+      "rank_best": 12,
+      "rank_worst": 12,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "OUTBID": 28,
+        "PARTIAL": 3,
+        "ACCEPTED": 7
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_volume",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.836571500084015,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "OUTBID": 24,
+        "ACCEPTED": 5,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_volume",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.836622187591782,
+      "rank": 12.0,
+      "rank_best": 12,
+      "rank_worst": 12,
+      "sold_kg": 540,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "PARTIAL": 3,
+        "OUTBID": 22,
+        "ACCEPTED": 4
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo94",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8440365962617684,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 28,
+        "ACCEPTED": 14,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo94",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8220364765708216,
+      "rank": 6.0,
+      "rank_best": 6,
+      "rank_worst": 6,
+      "sold_kg": 660,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 20,
+        "ACCEPTED": 7,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo94",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.855453175617943,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 34,
+        "ACCEPTED": 9
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo94",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.8919664988346468,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 14,
+        "OUTBID": 20
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo94",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8384927826023949,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 13,
+        "OUTBID": 22,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo94",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8288231577760199,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 7,
+        "OUTBID": 18,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo94",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8687303418587079,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 12,
+        "OUTBID": 14,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo94",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.8789414754088147,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "OUTBID": 27,
+        "ACCEPTED": 13
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo94",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8404278389096882,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "OUTBID": 26,
+        "ACCEPTED": 7
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo94",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8615698475963853,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "OUTBID": 26,
+        "PARTIAL": 2,
+        "ACCEPTED": 7
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo97",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8238428931604008,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 660,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "PARTIAL": 4,
+        "OUTBID": 24,
+        "ACCEPTED": 5
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo97",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.830388507857115,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 15,
+        "ACCEPTED": 8
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo97",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.8414490615246975,
+      "rank": 14.0,
+      "rank_best": 14,
+      "rank_worst": 14,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "OUTBID": 33,
+        "ACCEPTED": 9
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo97",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9063064754003968,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 14,
+        "OUTBID": 20
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo97",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8383343949844974,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 9,
+        "PARTIAL": 1,
+        "OUTBID": 26
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo97",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8259242819382487,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 480,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 5,
+        "OUTBID": 21
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo97",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8764551038227557,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 10,
+        "OUTBID": 16,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo97",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.879130906291603,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 13,
+        "OUTBID": 23
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo97",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8421250323607286,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "OUTBID": 20,
+        "ACCEPTED": 8
+      }
+    },
+    {
+      "field": "scarce",
+      "policy": "buyer_combo97",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8539085146087433,
+      "rank": 3.0,
+      "rank_best": 3,
+      "rank_worst": 3,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "OUTBID": 25,
+        "PARTIAL": 3,
+        "ABOVE_LIMIT": 2,
+        "ACCEPTED": 6
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_start",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8505074101764319,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 15,
+        "OUTBID": 16,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_start",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8591594533056276,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 15,
+        "OUTBID": 12,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_start",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9297987231495224,
+      "rank": 3.0,
+      "rank_best": 3,
+      "rank_worst": 3,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 22,
+        "OUTBID": 6,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_start",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9198797668198861,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 17,
+        "OUTBID": 2
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_start",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8528156121439187,
+      "rank": 6.0,
+      "rank_best": 6,
+      "rank_worst": 6,
+      "sold_kg": 1680,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 18,
+        "OUTBID": 19,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_start",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8467774790922569,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 13,
+        "OUTBID": 6,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_start",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8954513703570185,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 17,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_start",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9372736990949967,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 20,
+        "PARTIAL": 1,
+        "ABOVE_LIMIT": 1,
+        "OUTBID": 7
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_start",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8806014132945676,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 16,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_start",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9249614240231647,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 17,
+        "OUTBID": 1,
+        "ABOVE_LIMIT": 11
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_volume",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.848215603628578,
+      "rank": 6.0,
+      "rank_best": 6,
+      "rank_worst": 6,
+      "sold_kg": 1440,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 9,
+        "OUTBID": 29,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_volume",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8527711131037932,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 16,
+        "ACCEPTED": 10
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_volume",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9491463764770866,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 21,
+        "OUTBID": 7,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_volume",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9337590642729523,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 17,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_volume",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8493445305393182,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "ACCEPTED": 11,
+        "OUTBID": 24,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_volume",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8391345548104692,
+      "rank": 5.5,
+      "rank_best": 4,
+      "rank_worst": 7,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "ACCEPTED": 10,
+        "PARTIAL": 3,
+        "OUTBID": 8
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_volume",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.9056197988017977,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 9,
+        "ACCEPTED": 14,
+        "PARTIAL": 1,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_volume",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.946339861145242,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 19,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_volume",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8676806901154213,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 11,
+        "OUTBID": 13,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_volume",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9171431426175319,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 16,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo94",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8680897414380921,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1740,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 19,
+        "OUTBID": 15
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo94",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.86898363395619,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 15,
+        "OUTBID": 12,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo94",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.936554743429124,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 22,
+        "OUTBID": 7,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo94",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9198797668198861,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 17,
+        "OUTBID": 2
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo94",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8510407611813149,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 1620,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 16,
+        "OUTBID": 24,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo94",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8473898242268897,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 13,
+        "OUTBID": 9,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo94",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8979303471412127,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 17,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo94",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9489615845630315,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 20,
+        "PARTIAL": 1,
+        "ABOVE_LIMIT": 1,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo94",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8789109154002821,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 14,
+        "OUTBID": 17
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo94",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9238768990898624,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 19,
+        "OUTBID": 5,
+        "ABOVE_LIMIT": 3
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo97",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8632423111312035,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1680,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 10,
+        "ACCEPTED": 16,
+        "OUTBID": 19,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo97",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8503693969340714,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 13,
+        "OUTBID": 9,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo97",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9442502668114853,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 22,
+        "OUTBID": 9,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo97",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9341983164501625,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 16,
+        "OUTBID": 3
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo97",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8550770452534294,
+      "rank": 5.0,
+      "rank_best": 5,
+      "rank_worst": 5,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 15,
+        "ACCEPTED": 14,
+        "OUTBID": 20
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo97",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8495695619287427,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 9,
+        "OUTBID": 15,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo97",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.9094218449743994,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 17,
+        "OUTBID": 4
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo97",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9396150648062593,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 19,
+        "PARTIAL": 2,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo97",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8634031512849966,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 14,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "abundant",
+      "policy": "buyer_combo97",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.925546006531655,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 16,
+        "ABOVE_LIMIT": 9,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_start",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8451464184515345,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 14,
+        "OUTBID": 19,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_start",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8493537166362636,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 10,
+        "OUTBID": 16,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_start",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9166963976019616,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 1440,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 15,
+        "PARTIAL": 5,
+        "OUTBID": 19,
+        "ABOVE_LIMIT": 1
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_start",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9150104957334958,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 16,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_start",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8437993727322323,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1440,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 16,
+        "ACCEPTED": 15,
+        "OUTBID": 15
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_start",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.859139752827551,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 8,
+        "PARTIAL": 1,
+        "OUTBID": 13
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_start",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8810377525720237,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "ACCEPTED": 8,
+        "OUTBID": 6,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_start",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9441316528570876,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 20,
+        "OUTBID": 8,
+        "ABOVE_LIMIT": 2
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_start",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8569804397502838,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 12,
+        "OUTBID": 21
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_start",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8880602340884941,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 11,
+        "OUTBID": 12,
+        "PARTIAL": 2,
+        "ABOVE_LIMIT": 10
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_volume",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8327743840457658,
+      "rank": 3.0,
+      "rank_best": 3,
+      "rank_worst": 3,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 10,
+        "OUTBID": 25,
+        "ACCEPTED": 7,
+        "PARTIAL": 6
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_volume",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.844771058888673,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 20,
+        "PARTIAL": 2,
+        "ACCEPTED": 5
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_volume",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9106076536724178,
+      "rank": 6.0,
+      "rank_best": 6,
+      "rank_worst": 6,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "PARTIAL": 4,
+        "OUTBID": 19,
+        "ACCEPTED": 14
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_volume",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9152194083543642,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 14,
+        "PARTIAL": 2,
+        "OUTBID": 4
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_volume",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8390397824084805,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "ACCEPTED": 12,
+        "OUTBID": 26,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_volume",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8106419090114528,
+      "rank": 10.0,
+      "rank_best": 10,
+      "rank_worst": 10,
+      "sold_kg": 180,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 14,
+        "PARTIAL": 2,
+        "ACCEPTED": 1,
+        "OUTBID": 18
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_volume",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8817422512670945,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 12,
+        "ACCEPTED": 8,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_volume",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.92259593768366,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "OUTBID": 22,
+        "ACCEPTED": 13,
+        "ABOVE_LIMIT": 3
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_volume",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8507635463008887,
+      "rank": 3.0,
+      "rank_best": 3,
+      "rank_worst": 3,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 3,
+        "OUTBID": 24,
+        "ACCEPTED": 7
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_volume",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9097422122702434,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "OUTBID": 11,
+        "ACCEPTED": 13,
+        "ABOVE_LIMIT": 8,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo94",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8489581040289177,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 13,
+        "OUTBID": 20,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo94",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8594099104126026,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 9,
+        "OUTBID": 17,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo94",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9215918534345097,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 1440,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 14,
+        "PARTIAL": 5,
+        "OUTBID": 20,
+        "ABOVE_LIMIT": 1
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo94",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9151926246850219,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 16,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo94",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8413502329805791,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 16,
+        "ACCEPTED": 12,
+        "OUTBID": 18,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo94",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.859139752827551,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 8,
+        "PARTIAL": 1,
+        "OUTBID": 13
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo94",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8793765464822861,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "ACCEPTED": 8,
+        "OUTBID": 8,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo94",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.946476807186006,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 20,
+        "OUTBID": 8,
+        "ABOVE_LIMIT": 2
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo94",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8481831193844066,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 7,
+        "OUTBID": 25,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo94",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9070646994945297,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 14,
+        "OUTBID": 12,
+        "PARTIAL": 2,
+        "ABOVE_LIMIT": 7
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo97",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8583844442921833,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 13,
+        "OUTBID": 26
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo97",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8666732807926152,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 6,
+        "OUTBID": 18,
+        "PARTIAL": 4
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo97",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9299119218160501,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 15,
+        "PARTIAL": 4,
+        "OUTBID": 20,
+        "ABOVE_LIMIT": 2
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo97",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9247811783094869,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 16,
+        "OUTBID": 4
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo97",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.843580303174626,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "ACCEPTED": 10,
+        "OUTBID": 24,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo97",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8370235295535834,
+      "rank": 3.0,
+      "rank_best": 3,
+      "rank_worst": 3,
+      "sold_kg": 360,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "ACCEPTED": 3,
+        "OUTBID": 22
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo97",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8807428359495071,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 10,
+        "ACCEPTED": 8,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo97",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9575996328181753,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 19,
+        "OUTBID": 15,
+        "ABOVE_LIMIT": 2
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo97",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8565173744378274,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 6,
+        "OUTBID": 22,
+        "ABOVE_LIMIT": 3,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "heterogeneous",
+      "policy": "buyer_combo97",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9026204956591708,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 11,
+        "OUTBID": 9,
+        "PARTIAL": 2,
+        "ABOVE_LIMIT": 13
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8363881642606991,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 12,
+        "ACCEPTED": 11,
+        "OUTBID": 14,
+        "PARTIAL": 5
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8393237506496095,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 9,
+        "ACCEPTED": 12,
+        "OUTBID": 7
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9058452131474529,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "PARTIAL": 4,
+        "OUTBID": 13,
+        "ACCEPTED": 18
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.8947084743721991,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "ACCEPTED": 16,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.842175218661409,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 13,
+        "ACCEPTED": 13,
+        "OUTBID": 20,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8242731257180419,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 14,
+        "ACCEPTED": 6,
+        "OUTBID": 12,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8711724348682881,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 17,
+        "ACCEPTED": 8,
+        "OUTBID": 5,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.887968628922872,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 17,
+        "PARTIAL": 3,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8405938582452529,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 14,
+        "OUTBID": 8,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8719549005215185,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 12,
+        "ACCEPTED": 12,
+        "PARTIAL": 3,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8247514776146478,
+      "rank": 6.0,
+      "rank_best": 6,
+      "rank_worst": 6,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 16,
+        "PARTIAL": 8,
+        "ACCEPTED": 8,
+        "OUTBID": 15
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8409086585120003,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "OUTBID": 12,
+        "PARTIAL": 1,
+        "ACCEPTED": 7
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.8949416303898146,
+      "rank": 6.0,
+      "rank_best": 6,
+      "rank_worst": 6,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 9,
+        "PARTIAL": 4,
+        "OUTBID": 13,
+        "ACCEPTED": 13
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.883534327522683,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 14,
+        "ACCEPTED": 12,
+        "PARTIAL": 4,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8231613689020533,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 23,
+        "ACCEPTED": 3,
+        "OUTBID": 14,
+        "PARTIAL": 7
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8219507139616602,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 17,
+        "PARTIAL": 4,
+        "ACCEPTED": 4,
+        "OUTBID": 10
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.877170562921296,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 17,
+        "ACCEPTED": 7,
+        "PARTIAL": 4,
+        "OUTBID": 3
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.8767175460955635,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 1440,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 15,
+        "PARTIAL": 5,
+        "ACCEPTED": 14,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.830456800417805,
+      "rank": 5.0,
+      "rank_best": 5,
+      "rank_worst": 5,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 12,
+        "PARTIAL": 4,
+        "OUTBID": 9,
+        "ACCEPTED": 6
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8688938218330661,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 17,
+        "ACCEPTED": 9,
+        "PARTIAL": 2,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8379659656491095,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 12,
+        "ACCEPTED": 11,
+        "OUTBID": 15,
+        "PARTIAL": 6
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8324045100013886,
+      "rank": 5.0,
+      "rank_best": 5,
+      "rank_worst": 5,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 9,
+        "ACCEPTED": 9,
+        "OUTBID": 10
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9019038830578266,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "PARTIAL": 3,
+        "OUTBID": 17,
+        "ACCEPTED": 15
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.8983296264672482,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "ACCEPTED": 16,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.842175218661409,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 17,
+        "ACCEPTED": 13,
+        "OUTBID": 16,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.822384147566624,
+      "rank": 6.0,
+      "rank_best": 6,
+      "rank_worst": 6,
+      "sold_kg": 660,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 14,
+        "ACCEPTED": 5,
+        "OUTBID": 13,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8749682074130222,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 15,
+        "ACCEPTED": 9,
+        "OUTBID": 8
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.88880212480714,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 17,
+        "PARTIAL": 1,
+        "OUTBID": 10
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8372718660267165,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 12,
+        "OUTBID": 15
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8758694742208802,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 13,
+        "ACCEPTED": 11,
+        "PARTIAL": 2,
+        "OUTBID": 7
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8439935352298745,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 14,
+        "ACCEPTED": 10,
+        "OUTBID": 17,
+        "PARTIAL": 5
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8230933719667057,
+      "rank": 8.0,
+      "rank_best": 8,
+      "rank_worst": 8,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "OUTBID": 13,
+        "PARTIAL": 2,
+        "ACCEPTED": 5
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9079839193976376,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "PARTIAL": 3,
+        "OUTBID": 17,
+        "ACCEPTED": 14
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.8906052162289922,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 12,
+        "ACCEPTED": 14,
+        "PARTIAL": 1,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8231613689020533,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 24,
+        "ACCEPTED": 3,
+        "OUTBID": 13,
+        "PARTIAL": 7
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8219507139616602,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 17,
+        "PARTIAL": 4,
+        "ACCEPTED": 4,
+        "OUTBID": 10
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8744193611477362,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 17,
+        "ACCEPTED": 8,
+        "PARTIAL": 3,
+        "OUTBID": 3
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.889750047391048,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 10,
+        "ACCEPTED": 15,
+        "PARTIAL": 1,
+        "OUTBID": 10
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8342683356217262,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "PARTIAL": 4,
+        "OUTBID": 9,
+        "ACCEPTED": 7
+      }
+    },
+    {
+      "field": "low_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8688938218330661,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 16,
+        "ACCEPTED": 9,
+        "PARTIAL": 2,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8860125338277842,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1740,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ACCEPTED": 17,
+        "OUTBID": 21,
+        "PARTIAL": 4
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8714300218967959,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ACCEPTED": 12,
+        "OUTBID": 19
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.921022389287157,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 17,
+        "PARTIAL": 3,
+        "OUTBID": 18,
+        "ABOVE_LIMIT": 2
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9348411245143722,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 17,
+        "OUTBID": 8
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8759687510094097,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ACCEPTED": 12,
+        "PARTIAL": 3,
+        "OUTBID": 33
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8684800178009514,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 14,
+        "OUTBID": 11,
+        "ABOVE_LIMIT": 4
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.9211836473062932,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 18,
+        "ABOVE_LIMIT": 1,
+        "OUTBID": 4
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9201491472909392,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 18,
+        "OUTBID": 18,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8569804397502838,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 12,
+        "OUTBID": 21
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_start",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9276418758908388,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 17,
+        "OUTBID": 11,
+        "PARTIAL": 1,
+        "ABOVE_LIMIT": 3
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8361431512708074,
+      "rank": 5.0,
+      "rank_best": 5,
+      "rank_worst": 5,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "OUTBID": 29,
+        "ACCEPTED": 8,
+        "PARTIAL": 4
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.848781891246091,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 20,
+        "PARTIAL": 2,
+        "ACCEPTED": 5
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9025382722163456,
+      "rank": 16.0,
+      "rank_best": 16,
+      "rank_worst": 16,
+      "sold_kg": 1440,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "PARTIAL": 3,
+        "OUTBID": 21,
+        "ACCEPTED": 14
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9223277941977523,
+      "rank": 6.0,
+      "rank_best": 6,
+      "rank_worst": 6,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 15,
+        "OUTBID": 7
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8279502003319665,
+      "rank": 8.0,
+      "rank_best": 8,
+      "rank_worst": 8,
+      "sold_kg": 600,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 5,
+        "OUTBID": 31,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8242782195767221,
+      "rank": 8.0,
+      "rank_best": 8,
+      "rank_worst": 8,
+      "sold_kg": 420,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "PARTIAL": 1,
+        "ACCEPTED": 4,
+        "OUTBID": 22
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.9169512479186447,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 14,
+        "OUTBID": 9,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9243772445947729,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 15,
+        "OUTBID": 15,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8610901228195483,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "PARTIAL": 1,
+        "OUTBID": 26,
+        "ABOVE_LIMIT": 1,
+        "ACCEPTED": 6
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_volume",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9256550497257647,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "OUTBID": 17,
+        "ACCEPTED": 14,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8647064562676681,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ACCEPTED": 11,
+        "OUTBID": 32,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8652800433681664,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ACCEPTED": 11,
+        "OUTBID": 20
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9277631330935429,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 19,
+        "PARTIAL": 2,
+        "OUTBID": 19,
+        "ABOVE_LIMIT": 1
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9497435581363058,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 17,
+        "OUTBID": 8
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8727149217708151,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ACCEPTED": 12,
+        "PARTIAL": 1,
+        "OUTBID": 34
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8514556325739125,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 6,
+        "OUTBID": 23,
+        "ABOVE_LIMIT": 4
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.9250034766695996,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 18,
+        "ABOVE_LIMIT": 1,
+        "OUTBID": 7
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9325492928782577,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 18,
+        "OUTBID": 20
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8481831193844066,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 7,
+        "OUTBID": 25,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo94",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9187070363319253,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 17,
+        "OUTBID": 11,
+        "PARTIAL": 1,
+        "ABOVE_LIMIT": 1
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8649764354196272,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 3,
+        "ACCEPTED": 11,
+        "OUTBID": 27
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8797704590166101,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 3,
+        "ACCEPTED": 11,
+        "PARTIAL": 2,
+        "OUTBID": 16
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9328234648462119,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 15,
+        "PARTIAL": 2,
+        "OUTBID": 19,
+        "ABOVE_LIMIT": 6
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9449492813240733,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 17,
+        "ABOVE_LIMIT": 2,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8622127339220086,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ACCEPTED": 12,
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 29,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8481039390592738,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 540,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 1,
+        "ACCEPTED": 5,
+        "OUTBID": 27,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.9350225263124614,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 16,
+        "ABOVE_LIMIT": 3,
+        "OUTBID": 9
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9361219593276442,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 16,
+        "OUTBID": 21,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8538497312053441,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 660,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 6,
+        "OUTBID": 26,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "high_ceiling",
+      "policy": "buyer_combo97",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9344194219509884,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 17,
+        "OUTBID": 7,
+        "PARTIAL": 1,
+        "ABOVE_LIMIT": 7
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_start",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8860125338277842,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1740,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ACCEPTED": 17,
+        "OUTBID": 21,
+        "PARTIAL": 4
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_start",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8714300218967959,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ACCEPTED": 12,
+        "OUTBID": 19
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_start",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9093358872772189,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 16,
+        "PARTIAL": 4,
+        "OUTBID": 21,
+        "ABOVE_LIMIT": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_start",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.91979941581186,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 17,
+        "ABOVE_LIMIT": 1,
+        "OUTBID": 9,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_start",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8759687510094097,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ACCEPTED": 12,
+        "PARTIAL": 3,
+        "OUTBID": 33
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_start",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8645497293080231,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 9,
+        "OUTBID": 20,
+        "ABOVE_LIMIT": 2,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_start",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8937157309442683,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 14,
+        "ABOVE_LIMIT": 5,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_start",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9029575119793914,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1440,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 17,
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 12,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_start",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8614589746836814,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 12,
+        "OUTBID": 20,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_start",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8764693457723379,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 11,
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 12,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_volume",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8206548345119712,
+      "rank": 13.0,
+      "rank_best": 13,
+      "rank_worst": 13,
+      "sold_kg": 600,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 34,
+        "ACCEPTED": 5,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_volume",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8527927236035091,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 20,
+        "PARTIAL": 1,
+        "ACCEPTED": 6
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_volume",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9124064583935553,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "PARTIAL": 2,
+        "OUTBID": 17,
+        "ACCEPTED": 15
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_volume",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9072003777533453,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 15,
+        "OUTBID": 8
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_volume",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8279502003319665,
+      "rank": 9.0,
+      "rank_best": 9,
+      "rank_worst": 9,
+      "sold_kg": 600,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 5,
+        "OUTBID": 31,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_volume",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8242782195767221,
+      "rank": 8.0,
+      "rank_best": 8,
+      "rank_worst": 8,
+      "sold_kg": 420,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "PARTIAL": 1,
+        "ACCEPTED": 4,
+        "OUTBID": 22
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_volume",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8914216993434001,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 13,
+        "OUTBID": 10,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_volume",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.8819350284127085,
+      "rank": 9.0,
+      "rank_best": 9,
+      "rank_worst": 9,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "OUTBID": 25,
+        "ABOVE_LIMIT": 3,
+        "ACCEPTED": 10,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_volume",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.860727706346362,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "PARTIAL": 2,
+        "OUTBID": 27,
+        "ACCEPTED": 5
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_volume",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8813009161632723,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "OUTBID": 14,
+        "ABOVE_LIMIT": 6,
+        "PARTIAL": 1,
+        "ACCEPTED": 9
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo94",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8647064562676681,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ACCEPTED": 11,
+        "OUTBID": 32,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo94",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8652800433681664,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ACCEPTED": 11,
+        "OUTBID": 20
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo94",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9232642117315469,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 16,
+        "PARTIAL": 4,
+        "OUTBID": 22,
+        "ABOVE_LIMIT": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo94",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9359124712880557,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 17,
+        "ABOVE_LIMIT": 1,
+        "OUTBID": 12
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo94",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8727149217708151,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ACCEPTED": 12,
+        "PARTIAL": 1,
+        "OUTBID": 34
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo94",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8472103881524281,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 600,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 6,
+        "OUTBID": 25,
+        "ABOVE_LIMIT": 2
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo94",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.9012024542308232,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 14,
+        "ABOVE_LIMIT": 5,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo94",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9096574649488762,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 16,
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 18,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo94",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8604624787843612,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 10,
+        "OUTBID": 22,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo94",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8630114414149981,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 10,
+        "ABOVE_LIMIT": 5,
+        "OUTBID": 20
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo97",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8596093882578333,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "OUTBID": 38,
+        "ACCEPTED": 9,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo97",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8941360842640576,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ACCEPTED": 13,
+        "ABOVE_LIMIT": 2,
+        "OUTBID": 16
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo97",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9025126077413436,
+      "rank": 9.0,
+      "rank_best": 9,
+      "rank_worst": 9,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 12,
+        "PARTIAL": 3,
+        "OUTBID": 25,
+        "ABOVE_LIMIT": 5
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo97",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9393139972944996,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 15,
+        "ABOVE_LIMIT": 1,
+        "OUTBID": 15,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo97",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8622127339220086,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ACCEPTED": 12,
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 29,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo97",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8481039390592738,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 540,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 1,
+        "ACCEPTED": 5,
+        "OUTBID": 27,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo97",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8977361403782305,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 15,
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo97",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.8910965122652346,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 12,
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 24,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo97",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.858101191030021,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 7,
+        "OUTBID": 26
+      }
+    },
+    {
+      "field": "flat",
+      "policy": "buyer_combo97",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8648627725583212,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 9,
+        "ABOVE_LIMIT": 8,
+        "OUTBID": 18
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_start",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8459774749051614,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1620,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 13,
+        "OUTBID": 21,
+        "PARTIAL": 5
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_start",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8203310840906077,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 1,
+        "ACCEPTED": 13,
+        "OUTBID": 8,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_start",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.8998950268299745,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 19,
+        "OUTBID": 8,
+        "PARTIAL": 2,
+        "ABOVE_LIMIT": 2
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_start",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9166282293617577,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 16,
+        "OUTBID": 4
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_start",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8343351176058782,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 13,
+        "OUTBID": 12,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_start",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8420343740996342,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 11,
+        "OUTBID": 11,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_start",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8802505832860688,
+      "rank": 5.0,
+      "rank_best": 5,
+      "rank_worst": 5,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 12,
+        "PARTIAL": 4,
+        "OUTBID": 4
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_start",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9066806115246948,
+      "rank": 3.0,
+      "rank_best": 3,
+      "rank_worst": 3,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 2,
+        "ACCEPTED": 20,
+        "OUTBID": 12
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_start",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8528483862687516,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 11,
+        "OUTBID": 20
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_start",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8760820031720856,
+      "rank": 12.0,
+      "rank_best": 12,
+      "rank_worst": 12,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 9,
+        "PARTIAL": 3,
+        "OUTBID": 10,
+        "ABOVE_LIMIT": 10
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_volume",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8218427457773254,
+      "rank": 10.0,
+      "rank_best": 10,
+      "rank_worst": 10,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 10,
+        "OUTBID": 28,
+        "ACCEPTED": 2,
+        "PARTIAL": 9
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_volume",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.826902438511656,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 3,
+        "ACCEPTED": 9,
+        "OUTBID": 14
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_volume",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9041036952008739,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 17,
+        "OUTBID": 18,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_volume",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9164943110150473,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 14,
+        "PARTIAL": 2,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_volume",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.831613015188044,
+      "rank": 6.0,
+      "rank_best": 6,
+      "rank_worst": 6,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 9,
+        "ACCEPTED": 7,
+        "OUTBID": 15,
+        "PARTIAL": 5
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_volume",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8206756573336257,
+      "rank": 9.0,
+      "rank_best": 9,
+      "rank_worst": 9,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 10,
+        "PARTIAL": 6,
+        "OUTBID": 17,
+        "ACCEPTED": 2
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_volume",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8789119355407913,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 13,
+        "ACCEPTED": 11,
+        "PARTIAL": 1,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_volume",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9257478249406561,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 15,
+        "OUTBID": 16,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_volume",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8459721761101187,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 10,
+        "OUTBID": 16,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_volume",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9018151844620848,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 11,
+        "OUTBID": 10,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.842856283189141,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 11,
+        "OUTBID": 25,
+        "PARTIAL": 5
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8244557604167598,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 1,
+        "ACCEPTED": 11,
+        "OUTBID": 13,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.914942352947346,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 19,
+        "OUTBID": 17,
+        "PARTIAL": 1,
+        "ABOVE_LIMIT": 2
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9170728382728363,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 16,
+        "OUTBID": 4
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8323202512127892,
+      "rank": 6.0,
+      "rank_best": 6,
+      "rank_worst": 6,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 10,
+        "OUTBID": 16,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8389688773752658,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 8,
+        "PARTIAL": 2,
+        "OUTBID": 20
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.877090652469484,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 12,
+        "PARTIAL": 3,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9242219112708865,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 2,
+        "ACCEPTED": 20,
+        "OUTBID": 16
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8446528467098393,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 8,
+        "OUTBID": 25
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.909119421566271,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 14,
+        "PARTIAL": 2,
+        "OUTBID": 10,
+        "ABOVE_LIMIT": 4
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8418818258038451,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 7,
+        "OUTBID": 30,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8215257416262413,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 2,
+        "ACCEPTED": 9,
+        "OUTBID": 14,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.9120169083265576,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 18,
+        "OUTBID": 16,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.9312681830241386,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 16,
+        "OUTBID": 4
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8335089570259371,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 7,
+        "OUTBID": 23
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8358043533304486,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 7,
+        "OUTBID": 16,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8772367589764364,
+      "rank": 7.0,
+      "rank_best": 7,
+      "rank_worst": 7,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 9,
+        "ACCEPTED": 12,
+        "OUTBID": 7
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9228125455029419,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 19,
+        "OUTBID": 15
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8515679053035561,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 11,
+        "PARTIAL": 1,
+        "OUTBID": 13
+      }
+    },
+    {
+      "field": "shared_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.9090609365186512,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 3,
+        "ACCEPTED": 15,
+        "PARTIAL": 2,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_start",
+      "seed": 1010000,
+      "teams": 56,
+      "pr": 0.8526162342231666,
+      "rank": 3.0,
+      "rank_best": 3,
+      "rank_worst": 3,
+      "sold_kg": 1620,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 18,
+        "OUTBID": 14
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_start",
+      "seed": 1010001,
+      "teams": 56,
+      "pr": 0.8134331754034657,
+      "rank": 42.0,
+      "rank_best": 42,
+      "rank_worst": 42,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 2,
+        "ACCEPTED": 17,
+        "OUTBID": 7
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_start",
+      "seed": 1010002,
+      "teams": 56,
+      "pr": 0.9308489806830953,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 22,
+        "PARTIAL": 1,
+        "OUTBID": 3,
+        "ABOVE_LIMIT": 4
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_start",
+      "seed": 1010003,
+      "teams": 56,
+      "pr": 0.9343590184662148,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 16,
+        "OUTBID": 2
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_start",
+      "seed": 1010004,
+      "teams": 56,
+      "pr": 0.8438287056423892,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 21,
+        "OUTBID": 10
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_start",
+      "seed": 1010005,
+      "teams": 56,
+      "pr": 0.8419548082390241,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 15,
+        "OUTBID": 13
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_start",
+      "seed": 1010006,
+      "teams": 56,
+      "pr": 0.8832449882575145,
+      "rank": 15.0,
+      "rank_best": 15,
+      "rank_worst": 15,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 17,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_start",
+      "seed": 1010007,
+      "teams": 56,
+      "pr": 0.9430419652937195,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1440,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 19,
+        "OUTBID": 5,
+        "ABOVE_LIMIT": 7
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_start",
+      "seed": 1010008,
+      "teams": 56,
+      "pr": 0.8543040444969807,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 3,
+        "ACCEPTED": 18,
+        "OUTBID": 7
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_start",
+      "seed": 1010009,
+      "teams": 56,
+      "pr": 0.9422374065650376,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 3,
+        "ACCEPTED": 22,
+        "OUTBID": 3
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_volume",
+      "seed": 1010000,
+      "teams": 56,
+      "pr": 0.8321713882061956,
+      "rank": 21.0,
+      "rank_best": 21,
+      "rank_worst": 21,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "PARTIAL": 1,
+        "OUTBID": 13,
+        "ACCEPTED": 9
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_volume",
+      "seed": 1010001,
+      "teams": 56,
+      "pr": 0.8348313049592874,
+      "rank": 6.0,
+      "rank_best": 6,
+      "rank_worst": 6,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "OUTBID": 15,
+        "ACCEPTED": 14
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_volume",
+      "seed": 1010002,
+      "teams": 56,
+      "pr": 0.953542181644877,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "PARTIAL": 1,
+        "ACCEPTED": 21,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_volume",
+      "seed": 1010003,
+      "teams": 56,
+      "pr": 0.9307087646620882,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 14,
+        "OUTBID": 2
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_volume",
+      "seed": 1010004,
+      "teams": 56,
+      "pr": 0.8412185129794714,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 10,
+        "ACCEPTED": 16,
+        "OUTBID": 9
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_volume",
+      "seed": 1010005,
+      "teams": 56,
+      "pr": 0.8369442591073976,
+      "rank": 19.0,
+      "rank_best": 19,
+      "rank_worst": 19,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 11,
+        "OUTBID": 17
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_volume",
+      "seed": 1010006,
+      "teams": 56,
+      "pr": 0.8946048904794889,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 13,
+        "ACCEPTED": 16,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_volume",
+      "seed": 1010007,
+      "teams": 56,
+      "pr": 0.9386518566761913,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 19,
+        "OUTBID": 5,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_volume",
+      "seed": 1010008,
+      "teams": 56,
+      "pr": 0.877932518171848,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 14,
+        "OUTBID": 16
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_volume",
+      "seed": 1010009,
+      "teams": 56,
+      "pr": 0.9524860202301465,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 21,
+        "OUTBID": 8
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo94",
+      "seed": 1010000,
+      "teams": 56,
+      "pr": 0.8447711659039666,
+      "rank": 17.0,
+      "rank_best": 17,
+      "rank_worst": 17,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 15,
+        "OUTBID": 17
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo94",
+      "seed": 1010001,
+      "teams": 56,
+      "pr": 0.8319987036733127,
+      "rank": 12.0,
+      "rank_best": 12,
+      "rank_worst": 12,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 2,
+        "ACCEPTED": 17,
+        "OUTBID": 14
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo94",
+      "seed": 1010002,
+      "teams": 56,
+      "pr": 0.9358442500673502,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 20,
+        "PARTIAL": 1,
+        "OUTBID": 4,
+        "ABOVE_LIMIT": 5
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo94",
+      "seed": 1010003,
+      "teams": 56,
+      "pr": 0.9386711892302897,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 16
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo94",
+      "seed": 1010004,
+      "teams": 56,
+      "pr": 0.8458773817638706,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 18,
+        "OUTBID": 12
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo94",
+      "seed": 1010005,
+      "teams": 56,
+      "pr": 0.8386912150406073,
+      "rank": 13.0,
+      "rank_best": 13,
+      "rank_worst": 13,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 14,
+        "OUTBID": 14
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo94",
+      "seed": 1010006,
+      "teams": 56,
+      "pr": 0.8873173389288234,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 9,
+        "ACCEPTED": 17,
+        "OUTBID": 8
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo94",
+      "seed": 1010007,
+      "teams": 56,
+      "pr": 0.9468836235966651,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1440,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 19,
+        "OUTBID": 5,
+        "ABOVE_LIMIT": 7
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo94",
+      "seed": 1010008,
+      "teams": 56,
+      "pr": 0.8629778325191716,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 3,
+        "ACCEPTED": 17,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo94",
+      "seed": 1010009,
+      "teams": 56,
+      "pr": 0.9461052515846199,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 3,
+        "ACCEPTED": 22,
+        "OUTBID": 3
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo97",
+      "seed": 1010000,
+      "teams": 56,
+      "pr": 0.8396215740397053,
+      "rank": 19.0,
+      "rank_best": 19,
+      "rank_worst": 19,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 9,
+        "OUTBID": 16
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo97",
+      "seed": 1010001,
+      "teams": 56,
+      "pr": 0.8443819672317071,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 3,
+        "ACCEPTED": 17,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo97",
+      "seed": 1010002,
+      "teams": 56,
+      "pr": 0.9465608333853452,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1560,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 22,
+        "PARTIAL": 1,
+        "OUTBID": 4,
+        "ABOVE_LIMIT": 3
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo97",
+      "seed": 1010003,
+      "teams": 56,
+      "pr": 0.9326823607654006,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 17,
+        "OUTBID": 1
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo97",
+      "seed": 1010004,
+      "teams": 56,
+      "pr": 0.8353102327956133,
+      "rank": 14.0,
+      "rank_best": 14,
+      "rank_worst": 14,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 12,
+        "OUTBID": 17
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo97",
+      "seed": 1010005,
+      "teams": 56,
+      "pr": 0.8435620291040292,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 13,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo97",
+      "seed": 1010006,
+      "teams": 56,
+      "pr": 0.8902835751383182,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 9,
+        "ACCEPTED": 17,
+        "OUTBID": 9
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo97",
+      "seed": 1010007,
+      "teams": 56,
+      "pr": 0.9302617152549741,
+      "rank": 12.0,
+      "rank_best": 12,
+      "rank_worst": 12,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 17,
+        "OUTBID": 8,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo97",
+      "seed": 1010008,
+      "teams": 56,
+      "pr": 0.8738641830571956,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 16,
+        "OUTBID": 13
+      }
+    },
+    {
+      "field": "day18_56",
+      "policy": "buyer_combo97",
+      "seed": 1010009,
+      "teams": 56,
+      "pr": 0.9502317366966972,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 22,
+        "OUTBID": 4
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_start",
+      "seed": 1010000,
+      "teams": 56,
+      "pr": 0.8434992083591659,
+      "rank": 19.0,
+      "rank_best": 19,
+      "rank_worst": 19,
+      "sold_kg": 1500,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 19,
+        "OUTBID": 12
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_start",
+      "seed": 1010001,
+      "teams": 56,
+      "pr": 0.8295206001901817,
+      "rank": 22.0,
+      "rank_best": 22,
+      "rank_worst": 22,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ACCEPTED": 13,
+        "OUTBID": 3
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_start",
+      "seed": 1010002,
+      "teams": 56,
+      "pr": 0.9217051873200678,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 18,
+        "PARTIAL": 1,
+        "OUTBID": 1,
+        "ABOVE_LIMIT": 1
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_start",
+      "seed": 1010003,
+      "teams": 56,
+      "pr": 0.9056047917149556,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 12,
+        "ABOVE_LIMIT": 6
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_start",
+      "seed": 1010004,
+      "teams": 56,
+      "pr": 0.8445224488729692,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 21,
+        "OUTBID": 10
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_start",
+      "seed": 1010005,
+      "teams": 56,
+      "pr": 0.818281059723535,
+      "rank": 28.0,
+      "rank_best": 28,
+      "rank_worst": 28,
+      "sold_kg": 600,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "SPEC_MISMATCH": 1,
+        "ABOVE_LIMIT": 14,
+        "ACCEPTED": 8
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_start",
+      "seed": 1010006,
+      "teams": 56,
+      "pr": 0.8817725400671899,
+      "rank": 15.0,
+      "rank_best": 15,
+      "rank_worst": 15,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 17,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_start",
+      "seed": 1010007,
+      "teams": 56,
+      "pr": 0.941098404436312,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1440,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 19,
+        "OUTBID": 5,
+        "ABOVE_LIMIT": 7
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_start",
+      "seed": 1010008,
+      "teams": 56,
+      "pr": 0.8521955493387433,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 2,
+        "ACCEPTED": 18,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_start",
+      "seed": 1010009,
+      "teams": 56,
+      "pr": 0.9281033133285855,
+      "rank": 9.0,
+      "rank_best": 9,
+      "rank_worst": 9,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 20,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_volume",
+      "seed": 1010000,
+      "teams": 56,
+      "pr": 0.8428496914745115,
+      "rank": 19.0,
+      "rank_best": 19,
+      "rank_worst": 19,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "PARTIAL": 2,
+        "OUTBID": 13,
+        "ACCEPTED": 8
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_volume",
+      "seed": 1010001,
+      "teams": 56,
+      "pr": 0.8294344231669311,
+      "rank": 22.0,
+      "rank_best": 22,
+      "rank_worst": 22,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "OUTBID": 4,
+        "ABOVE_LIMIT": 1,
+        "ACCEPTED": 12
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_volume",
+      "seed": 1010002,
+      "teams": 56,
+      "pr": 0.9270901441285687,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 14,
+        "OUTBID": 6,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_volume",
+      "seed": 1010003,
+      "teams": 56,
+      "pr": 0.9045388016751408,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 11,
+        "OUTBID": 1
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_volume",
+      "seed": 1010004,
+      "teams": 56,
+      "pr": 0.8385723731253806,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 10,
+        "ACCEPTED": 15,
+        "OUTBID": 12
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_volume",
+      "seed": 1010005,
+      "teams": 56,
+      "pr": 0.8334338842977045,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 600,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 18,
+        "ACCEPTED": 7,
+        "SPEC_MISMATCH": 1,
+        "OUTBID": 1
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_volume",
+      "seed": 1010006,
+      "teams": 56,
+      "pr": 0.8931395555654458,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 13,
+        "ACCEPTED": 16,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_volume",
+      "seed": 1010007,
+      "teams": 56,
+      "pr": 0.9253965743798155,
+      "rank": 13.0,
+      "rank_best": 13,
+      "rank_worst": 13,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 16,
+        "OUTBID": 5,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_volume",
+      "seed": 1010008,
+      "teams": 56,
+      "pr": 0.8729282356718254,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 960,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 14,
+        "OUTBID": 16
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_volume",
+      "seed": 1010009,
+      "teams": 56,
+      "pr": 0.9345046556178332,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 9,
+        "ACCEPTED": 18,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010000,
+      "teams": 56,
+      "pr": 0.8394465382623696,
+      "rank": 19.0,
+      "rank_best": 19,
+      "rank_worst": 19,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 14,
+        "OUTBID": 16
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010001,
+      "teams": 56,
+      "pr": 0.8307645467866678,
+      "rank": 22.0,
+      "rank_best": 22,
+      "rank_worst": 22,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ACCEPTED": 13,
+        "OUTBID": 3
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010002,
+      "teams": 56,
+      "pr": 0.9289806076889999,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 18,
+        "PARTIAL": 1,
+        "OUTBID": 2,
+        "ABOVE_LIMIT": 1
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010003,
+      "teams": 56,
+      "pr": 0.9056047917149556,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 12,
+        "ABOVE_LIMIT": 6
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010004,
+      "teams": 56,
+      "pr": 0.8464757763987787,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 18,
+        "OUTBID": 12
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010005,
+      "teams": 56,
+      "pr": 0.8221399210749196,
+      "rank": 24.0,
+      "rank_best": 24,
+      "rank_worst": 24,
+      "sold_kg": 600,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "SPEC_MISMATCH": 1,
+        "ABOVE_LIMIT": 14,
+        "ACCEPTED": 8,
+        "OUTBID": 1
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010006,
+      "teams": 56,
+      "pr": 0.884159044259721,
+      "rank": 12.0,
+      "rank_best": 12,
+      "rank_worst": 12,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 10,
+        "ACCEPTED": 17,
+        "OUTBID": 7
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010007,
+      "teams": 56,
+      "pr": 0.939851049982062,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 18,
+        "OUTBID": 5,
+        "ABOVE_LIMIT": 8
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010008,
+      "teams": 56,
+      "pr": 0.866679010715391,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 2,
+        "ACCEPTED": 17,
+        "OUTBID": 11
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo94",
+      "seed": 1010009,
+      "teams": 56,
+      "pr": 0.9337522480760301,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 20,
+        "OUTBID": 6
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010000,
+      "teams": 56,
+      "pr": 0.8489692597740012,
+      "rank": 16.0,
+      "rank_best": 16,
+      "rank_worst": 16,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 17,
+        "OUTBID": 16
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010001,
+      "teams": 56,
+      "pr": 0.8260435446433768,
+      "rank": 22.0,
+      "rank_best": 22,
+      "rank_worst": 22,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ACCEPTED": 12,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010002,
+      "teams": 56,
+      "pr": 0.9327729921647739,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 18,
+        "PARTIAL": 1,
+        "OUTBID": 2,
+        "ABOVE_LIMIT": 2
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010003,
+      "teams": 56,
+      "pr": 0.9083313692539793,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ACCEPTED": 12,
+        "ABOVE_LIMIT": 5
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010004,
+      "teams": 56,
+      "pr": 0.83591520319574,
+      "rank": 14.0,
+      "rank_best": 14,
+      "rank_worst": 14,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 7,
+        "ACCEPTED": 12,
+        "OUTBID": 17
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010005,
+      "teams": 56,
+      "pr": 0.8282126456053616,
+      "rank": 3.0,
+      "rank_best": 3,
+      "rank_worst": 3,
+      "sold_kg": 600,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "SPEC_MISMATCH": 1,
+        "ABOVE_LIMIT": 15,
+        "ACCEPTED": 8
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010006,
+      "teams": 56,
+      "pr": 0.88706126098268,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "ACCEPTED": 17,
+        "OUTBID": 7
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010007,
+      "teams": 56,
+      "pr": 0.9349704111959333,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 18,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010008,
+      "teams": 56,
+      "pr": 0.8681676263957774,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 16,
+        "OUTBID": 13
+      }
+    },
+    {
+      "field": "day18_noise",
+      "policy": "buyer_combo97",
+      "seed": 1010009,
+      "teams": 56,
+      "pr": 0.9358977852069533,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1380,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 9,
+        "ACCEPTED": 19,
+        "OUTBID": 5
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_start",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8395740207618482,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 11,
+        "OUTBID": 24,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_start",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8257595145068176,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 480,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 5,
+        "OUTBID": 23
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_start",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.8730783391119433,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1440,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "PARTIAL": 3,
+        "OUTBID": 25,
+        "ACCEPTED": 12
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_start",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.8843424124700444,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 12,
+        "OUTBID": 20
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_start",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8345763002967647,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 10,
+        "OUTBID": 27,
+        "PARTIAL": 3
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_start",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8269341796246024,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 7,
+        "OUTBID": 18,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_start",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8713537951482428,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 12,
+        "ACCEPTED": 13,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_start",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9034358886065847,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1200,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 15,
+        "OUTBID": 24,
+        "ABOVE_LIMIT": 3,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_start",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8540509874741252,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 660,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 9,
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 18
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_start",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8500380272887842,
+      "rank": 5.0,
+      "rank_best": 5,
+      "rank_worst": 5,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 5,
+        "PARTIAL": 3,
+        "OUTBID": 20,
+        "ABOVE_LIMIT": 7
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_volume",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8150681756753352,
+      "rank": 14.0,
+      "rank_best": 14,
+      "rank_worst": 14,
+      "sold_kg": 420,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 5,
+        "OUTBID": 34,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_volume",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8114114782880921,
+      "rank": 18.0,
+      "rank_best": 18,
+      "rank_worst": 18,
+      "sold_kg": 300,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 23,
+        "ACCEPTED": 2
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_volume",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.8364797382265958,
+      "rank": 15.0,
+      "rank_best": 15,
+      "rank_worst": 15,
+      "sold_kg": 480,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "PARTIAL": 4,
+        "OUTBID": 35,
+        "ACCEPTED": 3
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_volume",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.8672011864123648,
+      "rank": 18.0,
+      "rank_best": 18,
+      "rank_worst": 18,
+      "sold_kg": 480,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 6,
+        "PARTIAL": 2,
+        "OUTBID": 22
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_volume",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8333869725770514,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "PARTIAL": 6,
+        "OUTBID": 27,
+        "ACCEPTED": 5
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_volume",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8129982756036412,
+      "rank": 2.5,
+      "rank_best": 2,
+      "rank_worst": 3,
+      "sold_kg": 420,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 11,
+        "OUTBID": 21,
+        "PARTIAL": 3,
+        "ACCEPTED": 1
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_volume",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8504110576502344,
+      "rank": 9.0,
+      "rank_best": 9,
+      "rank_worst": 9,
+      "sold_kg": 540,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "OUTBID": 15,
+        "PARTIAL": 2,
+        "ACCEPTED": 6
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_volume",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.8775219259381724,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 840,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "OUTBID": 26,
+        "ACCEPTED": 8,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_volume",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.832567384927978,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 480,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 4,
+        "OUTBID": 25
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_volume",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8512246530181916,
+      "rank": 4.0,
+      "rank_best": 4,
+      "rank_worst": 4,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 10,
+        "PARTIAL": 3,
+        "OUTBID": 18,
+        "ACCEPTED": 5
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo94",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8525453432585913,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 15,
+        "OUTBID": 21
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo94",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.829142899376176,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 480,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 5,
+        "OUTBID": 23
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo94",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.8888662994657761,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1320,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "PARTIAL": 2,
+        "OUTBID": 27,
+        "ACCEPTED": 11
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo94",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.88719755162191,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 12,
+        "OUTBID": 21
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo94",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8316416151888106,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 8,
+        "ACCEPTED": 9,
+        "OUTBID": 28,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo94",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8269341796246024,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 5,
+        "ACCEPTED": 7,
+        "OUTBID": 19
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo94",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8767486747868372,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1080,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "OUTBID": 13,
+        "ACCEPTED": 12,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo94",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.9070175666127747,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ACCEPTED": 14,
+        "OUTBID": 24,
+        "ABOVE_LIMIT": 1
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo94",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8540509874741252,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 660,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ACCEPTED": 9,
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 18
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo94",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8551166821754683,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 5,
+        "PARTIAL": 2,
+        "OUTBID": 22,
+        "ABOVE_LIMIT": 7
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo97",
+      "seed": 1010000,
+      "teams": 20,
+      "pr": 0.8470638597407648,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1140,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1920,
+      "statuses": {
+        "ABOVE_LIMIT": 10,
+        "ACCEPTED": 12,
+        "OUTBID": 24
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo97",
+      "seed": 1010001,
+      "teams": 20,
+      "pr": 0.8142525727002949,
+      "rank": 11.0,
+      "rank_best": 11,
+      "rank_worst": 11,
+      "sold_kg": 300,
+      "structurally_unsellable_kg": 540,
+      "eligible_kg": 1080,
+      "statuses": {
+        "ABOVE_LIMIT": 9,
+        "ACCEPTED": 2,
+        "OUTBID": 19,
+        "PARTIAL": 1
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo97",
+      "seed": 1010002,
+      "teams": 20,
+      "pr": 0.8924797658872488,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1260,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "PARTIAL": 2,
+        "OUTBID": 28,
+        "ACCEPTED": 10
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo97",
+      "seed": 1010003,
+      "teams": 20,
+      "pr": 0.8990627171404517,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 900,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 12,
+        "OUTBID": 21
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo97",
+      "seed": 1010004,
+      "teams": 20,
+      "pr": 0.8445925847871765,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1800,
+      "statuses": {
+        "ABOVE_LIMIT": 15,
+        "ACCEPTED": 9,
+        "OUTBID": 21,
+        "PARTIAL": 2
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo97",
+      "seed": 1010005,
+      "teams": 20,
+      "pr": 0.8319126298185823,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 600,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 6,
+        "OUTBID": 19
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo97",
+      "seed": 1010006,
+      "teams": 20,
+      "pr": 0.8720922954918154,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 720,
+      "structurally_unsellable_kg": 600,
+      "eligible_kg": 1200,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "OUTBID": 14,
+        "ACCEPTED": 10
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo97",
+      "seed": 1010007,
+      "teams": 20,
+      "pr": 0.8909776710685795,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 1020,
+      "structurally_unsellable_kg": 0,
+      "eligible_kg": 1560,
+      "statuses": {
+        "ABOVE_LIMIT": 4,
+        "ACCEPTED": 13,
+        "OUTBID": 23
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo97",
+      "seed": 1010008,
+      "teams": 20,
+      "pr": 0.8493363208570959,
+      "rank": 1.0,
+      "rank_best": 1,
+      "rank_worst": 1,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 360,
+      "eligible_kg": 1140,
+      "statuses": {
+        "ABOVE_LIMIT": 6,
+        "ACCEPTED": 9,
+        "OUTBID": 17
+      }
+    },
+    {
+      "field": "copies",
+      "policy": "buyer_combo97",
+      "seed": 1010009,
+      "teams": 20,
+      "pr": 0.8538531694241791,
+      "rank": 2.0,
+      "rank_best": 2,
+      "rank_worst": 2,
+      "sold_kg": 780,
+      "structurally_unsellable_kg": 480,
+      "eligible_kg": 1380,
+      "statuses": {
+        "ACCEPTED": 6,
+        "PARTIAL": 2,
+        "OUTBID": 20,
+        "ABOVE_LIMIT": 8
+      }
+    }
+  ]
+}
