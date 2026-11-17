@@ -1,17 +1,20 @@
 import cv2
 import numpy as np
-import os
 from pathlib import Path
+from ultralytics import SAM
 
-def extract_single_beans(input_dir, output_dir, min_area=1500, max_area=50000):
-    """
-    สกัดเม็ดกาแฟรายเม็ดออกจากภาพพื้นหลัง แล้วบันทึกเป็น PNG โปร่งใส (RGBA)
-    """
+BASE_DIR = Path(__file__).resolve().parents[1]
+
+def extract_with_sam(input_dir, output_dir, debug_dir, min_area_ratio=0.005, max_area_ratio=0.85):
+    # โหลดโมเดล SAM 2 ขนาดเล็ก (ultralytics จะดาวน์โหลดให้อัตโนมัติในครั้งแรก)
+    model = SAM(f"{BASE_DIR}/models/sam2.1_b.pt") 
+
     input_path = Path(input_dir)
     output_path = Path(output_dir)
+    debug_path = Path(debug_dir)
     output_path.mkdir(parents=True, exist_ok=True)
+    debug_path.mkdir(parents=True, exist_ok=True)
 
-    # วนลูปตามโฟลเดอร์คลาส (เช่น Good, Shell, Full_Black, ...)
     for class_dir in input_path.iterdir():
         if not class_dir.is_dir():
             continue
@@ -29,49 +32,63 @@ def extract_single_beans(input_dir, output_dir, min_area=1500, max_area=50000):
             if img is None:
                 continue
 
-            # 1. แปลงเป็น LAB Color Space เพื่อแยกความต่างระหว่างเม็ดกาแฟกับพื้นหลังลายไม้
-            lab = cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
-            l, a, b = cv2.split(lab)
-            
-            # ใช้ Otsu's Thresholding กับช่องสี L (ความสว่าง) และ B (เหลือง-น้ำเงิน)
-            # หมายเหตุ: หน้างานจริงให้ปรับค่า Threshold หรือใช้ HSV ตามสีพื้นหลังโต๊ะที่กรรมการจัดให้
-            blur = cv2.GaussianBlur(b, (5, 5), 0)
-            _, mask = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+            h, w = img.shape[:2]
+            total_pixels = h * w
+            min_area = total_pixels * min_area_ratio
+            max_area = total_pixels * max_area_ratio
 
-            # 2. ทำ Morphological Operations ลบจุดรบกวนเล็กๆ และอุดรูโหว่ในเม็ด
-            kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (7, 7))
-            mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel, iterations=2)
-            mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel, iterations=1)
+            # สั่ง SAM หา Mask ของวัตถุทั้งหมดในภาพอัตโนมัติ (Segment Everything)
+            results = model.predict(img, verbose=False)
+            debug_img = img.copy()
 
-            # 3. หา Contours ของเม็ดกาแฟแต่ละเม็ด
-            contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            if results[0].masks is not None:
+                masks = results[0].masks.data.cpu().numpy() # (N, H, W)
 
-            for cnt in contours:
-                area = cv2.contourArea(cnt)
-                if min_area < area < max_area:
-                    x, y, w, h = cv2.boundingRect(cnt)
-                    
-                    # สร้าง Mask เฉพาะเม็ดนี้
-                    single_mask = np.zeros(img.shape[:2], dtype=np.uint8)
-                    cv2.drawContours(single_mask, [cnt], -1, 255, thickness=cv2.FILLED)
-                    
-                    # Crop ภาพและ Mask
-                    crop_bgr = img[y:y+h, x:x+w]
-                    crop_alpha = single_mask[y:y+h, x:x+w]
-                    
-                    # รวมเป็นภาพ 4 Channels (BGRA) เพื่อให้พื้นหลังโปร่งใส
-                    crop_bgra = cv2.merge([crop_bgr[:, :, 0], crop_bgr[:, :, 1], crop_bgr[:, :, 2], crop_alpha])
-                    
-                    save_name = save_class_dir / f"{class_name}_{bean_count:04d}.png"
-                    cv2.imwrite(str(save_name), crop_bgra)
-                    bean_count += 1
+                for mask_bool in masks:
+                    mask_uint8 = np.uint8(mask_bool) * 255
+                    # ปรับขนาด Mask ให้ตรงกับภาพต้นฉบับเป๊ะๆ
+                    if mask_uint8.shape != (h, w):
+                        mask_uint8 = cv2.resize(mask_uint8, (w, h), interpolation=cv2.INTER_NEAREST)
 
-        print(f"[{class_name}] สกัดเม็ดกาแฟสำเร็จ: {bean_count} เม็ด")
+                    area = cv2.countNonZero(mask_uint8)
+                    # กรองขนาด: ตัดพื้นหลังแผ่นใหญ่ (area > max_area) และฝุ่นผง (area < min_area) ทิ้ง
+                    if min_area < area < max_area:
+                        contours, _ = cv2.findContours(mask_uint8, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+                        if not contours:
+                            continue
+                        
+                        cnt = max(contours, key=cv2.contourArea)
+                        x, y, bw, bh = cv2.boundingRect(cnt)
+
+                        # กรองสัดส่วน (กันขอบโต๊ะหรือแถบยาวๆ)
+                        aspect_ratio = max(bw, bh) / (min(bw, bh) + 1e-5)
+                        if aspect_ratio > 3.2:
+                            continue
+
+                        # เช็กความทึบของรูปทรง (Solidity) เม็ดกาแฟต้องเป็นก้อนค่อนข้างตัน ไม่ใช่เส้นยุ่งเหยิง
+                        hull = cv2.convexHull(cnt)
+                        hull_area = cv2.contourArea(hull)
+                        solidity = area / (hull_area + 1e-5)
+                        if solidity < 0.75:
+                            continue
+
+                        cv2.rectangle(debug_img, (x, y), (x+bw, y+bh), (0, 255, 0), 2)
+
+                        crop_bgr = img[y:y+bh, x:x+bw]
+                        crop_alpha = mask_uint8[y:y+bh, x:x+bw]
+                        crop_bgra = cv2.merge([crop_bgr[:, :, 0], crop_bgr[:, :, 1], crop_bgr[:, :, 2], crop_alpha])
+
+                        save_name = save_class_dir / f"{class_name}_{bean_count:04d}.png"
+                        cv2.imwrite(str(save_name), crop_bgra)
+                        bean_count += 1
+
+            cv2.imwrite(str(debug_path / f"sam_{class_name}_{img_file.name}"), debug_img)
+        print(f"[{class_name}] SAM สกัดได้: {bean_count} เม็ด")
 
 if __name__ == "__main__":
-    BASE_DIR = Path(__file__).resolve().parents[1]
-
-    extract_single_beans(
-        BASE_DIR / "datasets" / "train",
-        BASE_DIR / "datasets" / "train_processed",
+    
+    extract_with_sam(
+        BASE_DIR / "datasets" / "raw",
+        BASE_DIR / "datasets" / "extracted",
+        BASE_DIR / "datasets" / "debug"
     )
